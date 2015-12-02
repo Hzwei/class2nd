@@ -27,11 +27,11 @@ a.arrR:hover{background-position:-68px -144px;}
 .body{
 	width: 100%;
 	height: auto;
-	padding-top: 45px;
+	padding-top: 25px;
 	background-color: #f1f1f1;
 }
 
-/* 猜你喜欢 */
+/* 猜你喜欢 & 热门课程 */
 .push{
 	width: 1020px;
 	height: 320px;
@@ -41,6 +41,8 @@ a.arrR:hover{background-position:-68px -144px;}
 	font-size: 20px;
     line-height: 20px;
     color: #1caaea;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 .push-list{
 	margin-top: 10px;
@@ -55,6 +57,64 @@ a.arrR:hover{background-position:-68px -144px;}
 	border: 1px solid #eaeaea;
 	background-color: white;
 }
+.push-list li a{
+	display: block;
+}
+a.intro{
+	position: relative;
+	height: 130px;
+}
+a.intro div{
+	position: absolute;
+	width: 100%;
+	height: 130px;
+	top: 0;
+	opacity: .6;
+	background-color: #000;
+	z-index: 9;
+	display: none;
+}
+a.intro p{
+	display: none;
+	position: absolute;
+	width: 190px;
+	height: 70px;
+	top: 0px;
+	padding: 30px 20px 30px 0px;
+	z-index: 99;
+	color:white;
+	font-size: 14px;
+	font-family: 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimHei, tahoma, sans-serif;
+}
+.push-list li a span:hover{
+	color:#1caaea;
+}
+.push-list li a img{
+	width: 100%;
+	height: 130px;
+}
+.push-list li a span{
+	display: inline-block;
+	font-size: 16px;
+    line-height: 1em;
+    margin: 15px 0 12px 10px;
+    color: #666;
+}
+.course-info{
+	margin-left: 12px;
+	color:#999;
+}
+.course-info span.score{
+	margin-right: 30px;
+}
+.course-info span.number{
+	background: url(../img/member.png) no-repeat;
+	padding-left: 20px;
+}
 
+
+.fill{
+	height: 120px;
+}
 /*end*/
 

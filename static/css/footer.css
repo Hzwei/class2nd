@@ -1,0 +1,15 @@
+/*
+**	footer css
+*/
+@charset 'utf-8';
+
+.footer{
+	width: 100%;
+	padding-top: 30px;
+	height: 70px;
+	background-color: #518FDC;
+	text-align: center;
+}
+.footer p{
+	color:white;
+}

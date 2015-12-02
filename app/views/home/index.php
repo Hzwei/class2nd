@@ -3,7 +3,29 @@
 
 <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>static/css/index.css">
 <script type="text/javascript" src="<? echo base_url(); ?>static/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){		
+		$('.intro img').on({
+			mouseover:function(){
+				$(this).siblings('div').show();
+				$(this).siblings('p').show('fast',function(){
+					$(this).animate({'padding-left':'20px'},400);
+				});
+			}
+		});
 
+		$('.intro>p').on({
+			mouseout:function(){
+				$(this).animate({'padding-left': 0},400,function(){
+					$(this).hide('fast');
+					$(this).siblings('div').hide();
+				});
+			}
+		});
+
+
+	});
+</script>
 
 <?php $this->load->view('common/header_down');?>
 
@@ -43,17 +65,118 @@
 <!-- slide end -->
 
 <div class="body">
+
 	<!-- 猜你喜欢 -->
 	<div class="push">
 		<p>猜你喜欢</p>
 		<ul class="push-list">
-			<li><a href="#">1</a></li>
-			<li><a href="#">2</a></li>
-			<li><a href="#">3</a></li>
-			<li style="margin-right: 0"><a href="#">4</a></li>
+			<li>
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
+			<li>
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
+			<li>
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
+			<li style="margin-right: 0">
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
 		</ul>
 	</div>
 
+	<!-- 热门课程 -->
+	<div class="push">
+		<p>热门课程</p>
+		<ul class="push-list">
+			<li>
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
+			<li>
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
+			<li>
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
+			<li style="margin-right: 0">
+				<a href="#" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+					<div></div>
+					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+				</a>
+				<a href="#"><span>物联网概论</span></a>
+				<p class="course-info">
+					<span class="score">评分:9.0</span>
+					<span class="number">1000人参加</span>
+				</p>
+			</li>
+		</ul>
+	</div>
+
+	<div class="fill"></div>
 
 </div>
 
