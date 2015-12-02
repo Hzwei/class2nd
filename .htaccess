@@ -1,0 +1,5 @@
+RewriteEngine on  
+
+RewriteCond $1 !^(index\.php|static|robots\.txt)  
+
+RewriteRule ^(.*)$ /class2nd/index.php/$1 [L]

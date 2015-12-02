@@ -1,0 +1,149 @@
+/*
+**	header & nav css
+*/
+@charset 'utf-8';
+
+/* header */
+.header{
+	width: 1020px;
+	height: 80px;
+	margin: 0 auto;
+}
+.logo,.search,.log-reg{
+	display: inline-block;
+	height: 100%;
+}
+.logo{
+	width: 200px;
+    float: left;
+}
+.search{
+    float: left;
+	width: 630px;
+}
+.log-reg{
+	width: 150px;
+    float: right;
+}
+.logo a{
+    display: inline-block;
+    float: left;
+}
+.logo a img{
+    height: 50px;
+    padding-top: 15px;
+}
+.web-name{
+    display: inline-block;
+    height: 100%
+    ;
+    line-height: 80px;
+    float: left;
+    font-size: 24px;
+    font-family: 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimHei, tahoma, sans-serif;
+    margin-left: 15px;
+    color:#1caaea;
+    /*color:#518FDC;*/
+}
+.search form{
+	width: 250px;
+	float: right;
+	padding-top: 22px;
+	position: relative;
+}
+.form-group{
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 100%;
+    display: inline-block;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+.form-control{
+    display: block;
+    width: 190px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #666;
+    vertical-align: middle;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: 0;
+    font-family: 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimHei, tahoma, sans-serif;
+	font-size: 14px;
+}
+.btn-search{
+	margin-top: 28px;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    height: 23px;
+    width: 23px;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 0 none;
+    white-space: nowrap;
+    font-size: 14px;
+    line-height: 1.57143;
+    -webkit-user-select: none;
+    background-repeat: no-repeat;
+    background-image: url(../img/search.png);
+}
+.log-reg p{
+    float: right;
+    display: inline-block;
+    height: 100%;
+    line-height: 80px;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimHei, tahoma, sans-serif;
+}
+.log-reg p span{
+    margin-left: 20px;
+    cursor: pointer;
+    color:#518FDC;
+}
+.log-reg p span:hover{
+    color:#1caaea;
+}
+/*end*/
+
+/*nav*/
+.nav{
+    width: 100%;
+    height: 35px;
+    background-color:#518FDC; 
+}
+.nav ul{
+    margin: 0 auto;
+    width: 1020px;
+    height: 100%;
+}
+.nav ul li{
+    width: 80px;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.nav ul li a{
+    display: inline-block;
+    color:white;
+    height: 100%;
+    width: 100%;
+    line-height: 35px;
+    font-family: 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimHei, tahoma, sans-serif;
+    font-size: 16px;
+}
+.nav ul li a:hover{
+    background-color: #1caaea;
+}
+
+/*end*/
+
