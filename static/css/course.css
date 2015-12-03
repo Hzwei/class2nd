@@ -1,0 +1,84 @@
+/*
+**	course css
+*/
+@charset 'utf-8';
+
+/*分类样式*/
+.category{
+	width: 1020px;
+	height: 100px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #e9e9e9;
+}
+.left-word{
+	display: inline-block;
+	width: 70px;
+	text-align: center;
+	color: #333;
+    font-weight: 700;
+    font-size: 14px;
+}
+ul.cate-info{
+	display: inline-block;
+	width: 900px;
+	position: relative;	
+	top: 30px;
+}
+ul.cate-info li{
+	float: left;
+	padding: 0 10px;
+}
+ul.cate-info li a{
+	color:#666;
+	font-size: 14px;
+}
+.order-tab a:hover,ul.cate-info li a:hover{
+	color: #1caaea;
+}
+/*end*/
+
+/*排序选择*/
+.order-tab{
+	width: 1020px;
+	height: 50px;
+	margin: 0 auto;
+	background-color: white;
+	margin-bottom: 20px;
+	border: 1px solid #e9e9e9;
+}
+.order-tab a{
+	display: inline-block;
+	width: 80px;
+	margin-top: 15px;
+	margin-left: 20px;
+	font-size: 15px;
+	color: #666;
+}
+/*end*/
+
+.push-list li{
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.load-more{
+	position: relative;
+	top: 20px;
+	clear: both;
+	width: 100%;
+	height: 70px;
+}
+.load-more a{
+	margin: 0 auto;
+	display: block;
+	width: 200px;
+	height: 30px;
+	border-radius: 20px;
+	color:white;
+	background-color: #518FDC;
+	text-align: center;
+	line-height: 30px;
+}

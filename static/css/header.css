@@ -3,7 +3,195 @@
 */
 @charset 'utf-8';
 
+/*login register*/
+.black-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: #000;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    display: none;
+}
+.login{
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+    width: 360px;
+    padding-bottom: 30px;
+    left: 50%;
+    top: 50%;
+    margin: -218px 0 0 -180px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    display: none;
+}
+.login-header{
+    position: relative;
+    padding: 0 20px;
+}
+.login-header h1{
+    font-size: 16px;
+    line-height: 49px;
+    height: 49px;
+    color: #787d82;
+    border-bottom: 1px solid #518FDC;
+    font-weight: normal;
+    font-family: "Microsoft YaHei";
+}
+.login-header h1 span{
+    float: left;
+    width: 80px;
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+    cursor: pointer;
+}
+.login-header .active-title, .rl-modal-header span:hover {
+    border-bottom: 1px solid #518FDC;
+    color: #518FDC;
+}
+.rl-close{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    background: url(../img/login.png) no-repeat 0 0;
+    transition: transform 0.2s;
+    -webkit-transition: transform 0.2s;
+    -moz-transition: transform 0.2s;
+    -o-transition: transform 0.2s;
+    outline: none;
+    border: none;
+}
+.login-body {
+    padding: 0 30px;
+}
+.login-body-content{
+    margin-top: 30px;
+}
+.username{
+    width: 279px;
+    padding: 9px 9px 9px 10px;
+    background-color: #fff;
+    box-shadow: 2px 0px 5px 0px #fff;
+    font-size: 14px;
+    line-height: 20px;
+    border-radius: 0;
+    border: 1px solid rgb(208, 214, 217);
+    height: 20px;
+    color: #14191e;
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -moz-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    outline:none;
+}
+.password{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.auto-cbx{
+    margin-right: 10px;
+    vertical-align: -1px;
+}
+.autoin{
+    color: #787d82;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Microsoft Yahei", Tahoma, Arial, sans-serif;
+}
+.forget{
+    display:inline-block;
+    height:16px;
+    line-height: 16px;
+    color: #787d82;
+    float:right;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Microsoft Yahei", Tahoma, Arial, sans-serif;
+}
+.forget:hover{
+    color:red;
+}
+.btn-yellow{
+    margin-top: 15px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, "Helvetica Neue", "微软雅黑", Tahoma, Arial, sans-serif;
+    background-color: #518FDC;
+    border-color: #518FDC;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    outline: none;
+}
+.msg{
+    height:20px;
+    line-height: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    /*color:#518FDC;*/
+    color:red;
+    font-weight: 500;
+    font-family: "Microsoft Yahei", Tahoma, Arial, sans-serif;
+    display:none;
+}
+.div-code{
+    display: inline-block;
+    float: right;
+    height: 20px;
+    margin-top: 20px;
+    text-align: center;
+    width:100px;
+    color: #ffffff;
+    position:relative;
+    font-size: 15px;
+    background-color: #518FDC;
+}
+.checkcode{
+    background-color: #518FDC;
+    color: #ffffff;
+    width:80px;
+    display:inline-block;
+    padding: 9px 9px 9px 10px;
+    line-height: 20px;
+}
+.checkcode:hover{
+    color:white;
+}
+.cover{
+    background-color: #518FDC;
+    width:80px;
+    padding: 9px 9px 9px 10px;
+    line-height: 20px;
+    display:none;
+    position:absolute;
+    top:0;
+    z-index: 9;
+}
+
+/*end*/
+
 /* header */
+.head{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
 .header{
 	width: 1020px;
 	height: 80px;
@@ -146,4 +334,6 @@
 }
 
 /*end*/
+
+body{font:12px/180% "Arial","微软雅黑";color:#666666;background-color: #f1f1f1;}
 

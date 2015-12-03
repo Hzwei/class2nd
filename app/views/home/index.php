@@ -1,31 +1,13 @@
 <!-- 网站首页模板 -->
 <?php $this->load->view('common/header_up');?>
 
-<link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>static/css/index.css">
+<link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>static/css/slide.css">
+<link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>static/css/course_list.css">
+
+<!-- jquery 动画插件 -->
 <script type="text/javascript" src="<? echo base_url(); ?>static/js/jquery.easing.1.3.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){		
-		$('.intro img').on({
-			mouseover:function(){
-				$(this).siblings('div').show();
-				$(this).siblings('p').show('fast',function(){
-					$(this).animate({'padding-left':'20px'},400);
-				});
-			}
-		});
-
-		$('.intro>p').on({
-			mouseout:function(){
-				$(this).animate({'padding-left': 0},400,function(){
-					$(this).hide('fast');
-					$(this).siblings('div').hide();
-				});
-			}
-		});
-
-
-	});
-</script>
+<!-- 课程鼠标事件 -->
+<script type="text/javascript" src="<? echo base_url(); ?>static/js/course_mouse.js"></script>
 
 <?php $this->load->view('common/header_down');?>
 
