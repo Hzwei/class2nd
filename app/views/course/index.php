@@ -1,18 +1,66 @@
 <!-- 课程页模板 -->
 <?php $this->load->view('common/header_up');?>
 
+<?php
+// 获取控制器
+$control = $this->uri->segment(1);
+?>
+
 <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>static/css/course_list.css">
 <link rel="stylesheet" type="text/css" href="<? echo base_url(); ?>static/css/course.css">
 
 <!-- 课程鼠标事件 -->
 <script type="text/javascript" src="<? echo base_url(); ?>static/js/course_mouse.js"></script>
 
-<?php $this->load->view('common/header_down');?>
+<script type="text/javascript">
+	$(document).ready(function(){
+		// ajax加载更多按钮
+		$('.load-more a').click(function(){
 
-<?php
-// 获取控制器
-$control = $this->uri->segment(1);
-?>
+			$(this).text('玩命加载中...');
+
+			// 开始位置
+			var start = $('.push-list li').length;
+			// 分类和排序
+			var cateId = "<?=$cateId?>";
+			var order = "<?=$order?>";
+			
+			$.getJSON("<?php echo base_url()?>course/loadMore", {start: start,cateId:cateId,order:order}, function(json){
+				if (json == ''){
+					$(".load-more a").text('哎呀，没有了...');
+				}
+				else{
+					for(var i in json){
+						var html = '<li>';
+
+						if((parseInt(i)+1)%4 == 0){
+							html = '<li style="margin-right: 0">' ;
+						}
+						html += '<a href="<? echo base_url().$control; ?>/info/'+json[i].id+'" class="intro">\
+								<img src="<? echo base_url(); ?>upload/img/'+json[i].img+'">\
+								<div></div>\
+								<p>'+json[i].desc+'</p>\
+							</a>\
+							<a href="<? echo base_url().$control; ?>/info/'+json[i].id+'"><span>'+json[i].title+'</span></a>\
+							<p class="course-info">\
+								<span class="score">评分:'+ parseInt((json[i].score/json[i].score_num)*100)/100 +'</span>\
+								<span class="number">'+json[i].join_num+'人参加</span>\
+							</p>\
+						</li>';
+
+						$('.push-list').append(html);
+					}
+					$(".load-more a").text('加载更多');
+				}
+
+			});
+
+		});
+	});	
+
+</script>
+
+<?php $this->load->view('common/header_down');?>
 
 <!-- 分类 -->
 <div class="category">
@@ -44,150 +92,24 @@ $control = $this->uri->segment(1);
 
 <div class="push" style="min-height: 500px">
 	<ul class="push-list" style="height:auto">
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li style="margin-right: 0">
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li style="margin-right: 0">
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li>
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
-		<li style="margin-right: 0">
-			<a href="#" class="intro">
-				<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-				<div></div>
-				<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-			</a>
-			<a href="#"><span>物联网概论</span></a>
-			<p class="course-info">
-				<span class="score">评分:9.0</span>
-				<span class="number">1000人参加</span>
-			</p>
-		</li>
+		<?php foreach ($courseList as $k=>$val){ ?>
+			<li <?php if(($k+1)%4 == 0){echo ' style="margin-right: 0" ';} ?> >
+				<a href="<?php echo base_url().$control.'/info/'.$val['id']?>" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/<?=$val['img']?>">
+					<div></div>
+					<p>
+						<?php echo mb_substr($val['desc'],0,35,'utf-8');?>
+					</p>
+				</a>
+				<a href="<?php echo base_url().$control.'/info/'.$val['id']?>"><span><?=$val['title']?></span></a>
+				<p class="course-info">
+					<span class="score">评分:
+						<?php echo sprintf("%.2f",$val['score']/$val['score_num']);?>
+					</span>
+					<span class="number"><?=$val['join_num']?>人参加</span>
+				</p>
+			</li>
+		<?php }?>
 	</ul>
 	
 	<div class="load-more">

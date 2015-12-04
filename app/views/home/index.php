@@ -107,54 +107,24 @@
 	<div class="push">
 		<p>热门课程</p>
 		<ul class="push-list">
-			<li>
-				<a href="#" class="intro">
-					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
+			<?php foreach ($courseList as $k=>$val){ ?>
+			<li <?php if(($k+1)%4 == 0){echo ' style="margin-right: 0" ';} ?> >
+				<a href="<?php echo base_url().'course/info/'.$val['id']?>" class="intro">
+					<img src="<? echo base_url(); ?>upload/img/<?=$val['img']?>">
 					<div></div>
-					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
+					<p>
+						<?php echo mb_substr($val['desc'],0,35,'utf-8');?>
+					</p>
 				</a>
-				<a href="#"><span>物联网概论</span></a>
+				<a href="<?php echo base_url().'course/info/'.$val['id']?>"><span><?=$val['title']?></span></a>
 				<p class="course-info">
-					<span class="score">评分:9.0</span>
-					<span class="number">1000人参加</span>
+					<span class="score">评分:
+						<?php echo sprintf("%.2f",$val['score']/$val['score_num']);?>
+					</span>
+					<span class="number"><?=$val['join_num']?>人参加</span>
 				</p>
 			</li>
-			<li>
-				<a href="#" class="intro">
-					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-					<div></div>
-					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-				</a>
-				<a href="#"><span>物联网概论</span></a>
-				<p class="course-info">
-					<span class="score">评分:9.0</span>
-					<span class="number">1000人参加</span>
-				</p>
-			</li>
-			<li>
-				<a href="#" class="intro">
-					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-					<div></div>
-					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-				</a>
-				<a href="#"><span>物联网概论</span></a>
-				<p class="course-info">
-					<span class="score">评分:9.0</span>
-					<span class="number">1000人参加</span>
-				</p>
-			</li>
-			<li style="margin-right: 0">
-				<a href="#" class="intro">
-					<img src="<? echo base_url(); ?>upload/img/demo.jpg">
-					<div></div>
-					<p>物联网是非常重要也受到高度关注的议题，主要诉求是"物物联网"或是"万物联网"...</p>
-				</a>
-				<a href="#"><span>物联网概论</span></a>
-				<p class="course-info">
-					<span class="score">评分:9.0</span>
-					<span class="number">1000人参加</span>
-				</p>
-			</li>
+			<?php }?>			
 		</ul>
 	</div>
 

@@ -14,8 +14,8 @@ class User extends CI_Controller{
 		$res = array();
 
 		// 验证登录
-		$this->load->model('User_model');
-		$userInfo = $this->User_model->login($email,$pwd);
+		$this->load->model('user_model');
+		$userInfo = $this->user_model->login($email,$pwd);
 		if($userInfo){
 			// 登录成功
 			$res['status'] = "success";
@@ -65,20 +65,48 @@ class User extends CI_Controller{
 
 	// ajax 邮件发送函数
 	public function sendEmail(){
-		$email = $this->input->post('email');
-		$patt = '/^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/';
 		
+		$email = $this->input->post('email');
 		$data = array();
 
+		/* 引入扩展函数文件 */
+		$this->load->helper('my_check');
+
 		// 后端正则
-		if (!preg_match($patt,$email)){
+		if (!myCheckEmail($email)){
 			$data['status'] = 'false';
 			$data['message'] = '邮箱格式不正确!';
 		}
 		else{
-			// 发送email wait for edit
-			$data['status'] = 'success';
-			
+
+			// 生成验证码
+			$code = rand(100000,999999);
+
+			$this->load->library('email');            //加载CI的email类  
+	        $this->email->from('hpf@betahouse.us', '转课网');	//	发件人
+	        $this->email->to($email);							// 目的邮箱
+	        $this->email->subject('转课网验证码');			// 邮件标题
+	        $this->email->message('您好，您的转课网验证码为'.$code);	// 邮件内容
+	  
+	        if ($this->email->send(FALSE)){
+
+	        	// 插入记录
+	        	$this->load->model('user_model');
+	        	if ($this->user_model->saveEmailCode($email,$code)){
+	        		$data['status'] = 'success';
+	        	}
+	        	else{
+	        		$data['status'] = 'false';
+	        		$data['message'] = '邮件记录失败，请重试';
+	        	}
+	        }
+	        else{
+	        	$data['status'] = 'false';
+	        	$data['message'] = '邮件发送失败，请重试';
+	        }
+
+	  		//返回包含邮件内容的字符串，包括EMAIL头和EMAIL正文。用于调试。 
+	        // echo $this->email->print_debugger();
 		}
 
 		echo json_encode($data);
@@ -86,8 +114,27 @@ class User extends CI_Controller{
 
 	// ajax 注册函数
 	public function register(){
-		echo 1;
+		$email = $this->input->post('email');
+		$password = $this->input->post('password');
+		$code = $this->input->post('code');
+
+		$data = array();
+
+		$this->load->model('user_model');
+
+		$return = $this->user_model->reg($email,$password,$code);
+		if ($return == 1){
+			$data['status'] = 'success';
+		}
+		else{
+			$data['status'] = 'false' ;
+			$data['message'] = $return ;
+		}
+
+		echo json_encode($data);
+
 	}
+
 
 
 }
