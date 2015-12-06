@@ -29,13 +29,15 @@ class Course_model extends CI_Model{
 					$cateIdList[] = $cateList['cid'];
 				}
 
-				// 当无最高权重ID时，默认选取最新参与课程分类iD
-				$cateId = $cateIdList[0];
+				// 加载扩展的数组处理函数
+				$this->load->helper('my_array');
 
-				// $cateIdList; 获取数组元素权重最高者 wait for add
-
-				 // 获取该分类ID下 $num 门最热课程
+				// 获取最多出现的分类ID
+				$cateId = myGetMoreVal($cateIdList);
+				
+				// 获取该分类ID下 $num 门最热课程
 				return $this->getCourseList($cateId,'hot',0,$num);
+				
 			}
 			else{
 				// 未参与任何课程状态下获取 $num 门最热课程

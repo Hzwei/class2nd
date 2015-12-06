@@ -26,7 +26,7 @@
 	<ul class="mypng">
 		<li id="focusIndex1" style="background:url(<? echo base_url(); ?>static/img/bg-line1.gif) repeat-x;">
 			<div class="focusL"><a href="#"><img src="<? echo base_url(); ?>static/img/slide1.png" width="1000" height="644" /></a></div>
-			<div class="focusR"><a href="#"><img src="<? echo base_url(); ?>static/img/slide2.png" width="1000" height="644" /></a></div>
+			<div class="focusR"><a href="##"><img src="<? echo base_url(); ?>static/img/slide2.png" width="1000" height="644" /></a></div>
 		</li>
 		<li id="focusIndex2">
 			<div class="focusL"><a href="#"><img src="<? echo base_url(); ?>static/img/slide3.png" width="1000" height="644" /></a></div>
