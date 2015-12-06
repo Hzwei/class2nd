@@ -13,3 +13,8 @@ function checkPwd(pwd){
 function checkCode(checkcode){
 	return /^\d{6}$/.test(checkcode);
 }
+
+/* js时间戳生成时间函数 */
+function getDate(time){
+	return new Date(parseInt(time)*1000).toLocaleString();
+}

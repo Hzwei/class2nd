@@ -1,4 +1,4 @@
-<!-- 课程页模板 -->
+<!-- 课程列表页模板 -->
 <?php $this->load->view('common/header_up');?>
 
 <?php
@@ -27,7 +27,7 @@ $control = $this->uri->segment(1);
 			
 			$.getJSON("<?php echo base_url()?>course/loadMore", {start: start,cateId:cateId,order:order}, function(json){
 				if (json == ''){
-					$(".load-more a").text('哎呀，没有了...');
+					$(".load-more a").text('哎呀，木有了...');
 				}
 				else{
 					for(var i in json){

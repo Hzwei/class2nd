@@ -78,8 +78,109 @@ class Course extends CI_Controller{
 
 	// 课程详细信息页
 	public function info(){
-		
+		$courseId = intval($this->uri->segment(3));
 
+		$this->load->model('course_model');
+
+		// 获取课程数据
+		$courseInfo = $this->course_model->getCourseInfo($courseId);
+
+		// 获取相关课程列表
+		$courseList = $this->course_model->getCourseList($courseInfo['cid'],'hot',0,4);
+
+		// 获取最新评论3条
+		$comment = $this->course_model->getCourseComment($courseId,0,3);
+
+		$data = array(
+			'courseInfo' => $courseInfo,
+			'courseList'=>$courseList,
+			'comment'=>$comment,
+			'score'=>0,
+			'joinStatus'=>0
+		);
+
+		if (isset($_SESSION['uid'])){
+			// 获取是否参加状态
+			$data['joinStatus'] = $this->course_model->getJoinStatus($courseId,$_SESSION['uid']);
+
+			// 已加入状态下查询评分情况
+			if($data['joinStatus'] == 1){
+				// -1未评价 1-10为评分
+				$data['score'] = $this->course_model->getScore($courseId,$_SESSION['uid']);
+			}
+		}
+
+
+		$this->load->view('course/info',$data);
+
+
+	}
+
+	/* 加载更多点评 */
+	public function loadComment(){
+
+		$cid = $this->input->post('cid');
+		$start = $this->input->post('start');
+
+		$this->load->model('course_model');
+
+		// 获取评论3条
+		$comment = $this->course_model->getCourseComment($cid,$start,3);
+
+		echo json_encode($comment);
+
+	}
+
+	/* 加入课程 */
+	public function joinCourse(){
+		if (!isset($_SESSION['uid'])) {
+			echo 0;
+		}
+		else{
+			$cid = $this->input->post('cid');
+
+			$this->load->model('course_model');
+			
+			if ($this->course_model->joinCourse($cid,$_SESSION['uid'])){
+				echo 1;
+			}
+			else{
+				echo 0;
+			}
+
+		}
+
+	}
+
+	// 评分
+	public function giveScore(){
+		if (!isset($_SESSION['uid'])){
+			echo 0;
+		}
+		else{
+			// 课程ID
+			$cid = $this->input->post('cid');
+			$score = $this->input->post('score');
+
+			$this->load->model('course_model');
+
+			// 检测是否已参加
+			$status = $this->course_model->getJoinStatus($cid,$_SESSION['uid']);
+
+			if ($status){
+				// 未评分情况下
+				if ($this->course_model->getScore($cid,$_SESSION['uid']) == -1){
+					echo $this->course_model->giveScore($cid,$_SESSION['uid'],$score);
+				}
+				else{
+					echo 0;
+				}
+			}
+			else{
+				echo 0;
+			}
+
+		}
 	}
 
 
