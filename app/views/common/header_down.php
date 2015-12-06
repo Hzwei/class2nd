@@ -26,7 +26,7 @@
 					<label for="auto-signin" class="autoin" hidefocus="true">
 						<input type="checkbox" checked="checked" class="auto-cbx" id="auto-signin" name="autoin" value="1">五天内自动登录
 					</label>
-					<a href="/user/newforgot" class="forget" target="_blank" hidefocus="true">忘记密码</a>
+					<a href="javascript:;" class="forget" target="_blank" hidefocus="true">忘记密码</a>
 					<p class="msg-log msg"></p>
 					<input type="button" value="登录" hidefocus="true" class="btn-log btn-yellow">
 				</form>
@@ -61,7 +61,7 @@
 				</a>
 			</div>
 			<div class="search">
-				<form action='<? echo base_url(); ?>/search' method="GET" role="search">
+				<form action='<? echo base_url(); ?>search' method="GET" role="search">
 					<div class="form-group">
 						<input class="form-control" type="text" maxlength="30" placeholder="搜你所想，30字之内 :)" name="word">
 	                </div>

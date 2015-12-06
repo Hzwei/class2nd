@@ -91,15 +91,21 @@ class Course extends CI_Controller{
 		// 获取最新评论3条
 		$comment = $this->course_model->getCourseComment($courseId,0,3);
 
+		// 获取视频列表
+		$videoList = $this->course_model->getVideoList($courseId);
+
 		$data = array(
 			'courseInfo' => $courseInfo,
 			'courseList'=>$courseList,
 			'comment'=>$comment,
+			'videoList'=>$videoList,
+			'myComment'=>0,
 			'score'=>0,
 			'joinStatus'=>0
 		);
 
 		if (isset($_SESSION['uid'])){
+
 			// 获取是否参加状态
 			$data['joinStatus'] = $this->course_model->getJoinStatus($courseId,$_SESSION['uid']);
 
@@ -108,6 +114,10 @@ class Course extends CI_Controller{
 				// -1未评价 1-10为评分
 				$data['score'] = $this->course_model->getScore($courseId,$_SESSION['uid']);
 			}
+
+			// 获取个人评论情况
+			$data['myComment'] = $this->course_model->getMyComment($courseId,$_SESSION['uid']);
+
 		}
 
 
@@ -182,6 +192,41 @@ class Course extends CI_Controller{
 
 		}
 	}
+
+	/* 评价 */
+	public function giveComment(){
+
+		if (!isset($_SESSION['uid'])){
+			echo 0;
+		}
+		else{
+			// 课程ID
+			$cid = $this->input->post('cid');
+			$this->load->model('course_model');
+
+			// 检测是否已参加
+			$status = $this->course_model->getJoinStatus($cid,$_SESSION['uid']);
+
+			if($status){
+				// 如果已有记录
+				if ($this->course_model->getMyComment($cid,$_SESSION['uid'])){
+					echo 0;
+				}
+				else{
+					$comment = $this->input->post('comment');
+					echo $this->course_model->insertComment($cid,$_SESSION['uid'],$_SESSION['username'],$comment);
+				}
+			}
+			else{
+				echo 0;
+			}
+
+		}
+
+	}
+
+
+	
 
 
 

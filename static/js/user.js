@@ -193,6 +193,31 @@ $(document).ready(function(){
 
 	})
 
+	// 忘记密码
+	$('.forget').click(function(){
+		var email = $('input[name=username]').val();
+
+		if(email == ''){
+			$('.msg-log').text('请填写您的邮箱').show();
+			return;	
+		}
+		
+		if(!checkEmail(email)){
+			$('.msg-log').text('邮箱格式不符').show();
+			return;	
+		}
+
+		$.post(baseUrl+'user/forget', {email: email}, function(data){
+			if (data == 'success') {
+				$('.msg-log').text('邮件已发送，请去邮箱查收').show();
+			}
+			else{
+				$('.msg-log').text(data).show();	
+			}
+		});
+
+	});
+
 
 
 });

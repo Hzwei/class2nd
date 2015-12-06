@@ -10,10 +10,12 @@ class Home extends CI_Controller{
 		$this->load->model('course_model');
 		$courseList = $this->course_model->getCourseList(0,'hot',0,4);
 
-		
+		// 猜你喜欢 4门课程 由最近5篇分析
+		$courseLikeList = $this->course_model->getCourseLikeList(4,5);
 		
 		$data = array(
-			'courseList' => $courseList
+			'courseList' => $courseList,
+			'courseLikeList'=>$courseLikeList
 		);
 
 		$this->load->view('home/index',$data);

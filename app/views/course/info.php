@@ -72,8 +72,25 @@ $cid = $this->uri->segment(3);
 			else{
 				alert('请填1到10的整数');
 			}
+		});
 
+		// 评论
+		$('.your_comment button').click(function(event){
+			var comment = $(this).siblings('textarea').val();
 
+			if (comment == '') {
+				alert("请填写评论");
+			}
+			else{
+				$.post("<?php echo base_url().$control.'/giveComment'?>", {cid:"<?=$cid?>",comment:comment}, function(data){
+					if (data){
+						alert('评论成功');
+					}
+					else{
+						alert('评论失败');
+					}
+				});
+			}
 		});
 
 
@@ -82,16 +99,21 @@ $cid = $this->uri->segment(3);
 
 <?php $this->load->view('common/header_down');?>
 
+<!-- 第一块区域 -->
 <div class="head-info">
 	<div class="head-info-left">
-		<p class="course-title"><?=$courseInfo['title']?></p>
+		<p class="course-title">
+			<?=$courseInfo['title']?>
+		</p>
 		<p class="course-desc"><?=$courseInfo['desc']?></p>
 	</div>
 	<div class="head-info-right">
 		<img src="<? echo base_url(); ?>upload/img/<?=$courseInfo['img']?>">
 	</div>
 </div>
+<!-- end -->
 
+<!-- 第二块评分和参与情况 -->
 <div class="more-info">
 	<p class="course-info">
 		<span class="score">评分：<?php echo sprintf("%.2f",$courseInfo['score']/$courseInfo['score_num']);?></span>
@@ -125,21 +147,26 @@ $cid = $this->uri->segment(3);
 			</span>	
 		<?php }?>
 
-
 	</p>
 </div>
+<!-- end -->
 
+<!-- 视频列表 -->
 <div class="videolist">
 	<ul>
-		<li><a href="#">视频1</a></li>
-		<li><a href="#">视频2</a></li>
-		<li><a href="#">视频3</a></li>
-		<li><a href="#">视频4</a></li>
-		<li><a href="#">视频5</a></li>
-		<li><a href="#">视频6</a></li>
+		<?php foreach ($videoList as $val): ?>
+			<li>
+				<a href="<?php echo base_url().$control.'/video/'.$val['id']; ?>">
+					<?=$val['sort'].'. '.$val['title']?>
+				</a>
+				<span><?php echo date('Y-m-d H:i:s',$val['time']);?></span>
+			</li>
+		<?php endforeach ?>
 	</ul>
 </div>
+<!-- end -->
 
+<!-- 课程点评 -->
 <p class="course_comment">课程点评</p>
 
 <div class="comment">
@@ -155,7 +182,38 @@ $cid = $this->uri->segment(3);
 	</ul>
 	<p class="more"><a href="javascript:;">加载更多</a></p>
 </div>
+<!-- end -->
 
+<!-- 点评 -->
+<p class="course_comment">不点评吗？</p>
+<div class="your_comment">
+	<?php if (isset($_SESSION['uid'])){ ?>
+		
+		<?php if ($joinStatus){?>
+
+			<?php if(empty($myComment)){ ?>
+				<textarea placeholder="留个评论吧，300字之内"></textarea><br>
+				<button>提交</button>
+			<?php }else{?>
+				<p><?=$myComment['text']?></p>
+				<p>您评论于 <?php echo date("Y-m-d H:i:s",$myComment['time']);?></p>
+			<?php }?>
+
+		<?php }else{?>
+			<p>请先加入该课程</p>
+		<?php }?>
+
+	<?php }else{?>
+		<p>请先前往右上角登录</p>
+
+
+	<?php }?>
+
+</div>
+<!-- end -->
+
+
+<!-- 相关推荐 -->
 <div class="push" style="margin-bottom: 20px;">
 	<p>相关推荐</p>
 	<ul class="push-list">
@@ -179,5 +237,6 @@ $cid = $this->uri->segment(3);
 		<?php }?>
 	</ul>
 </div>
+<!-- end -->
 
 <?php $this->load->view('common/footer');?>

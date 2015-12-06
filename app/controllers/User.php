@@ -39,6 +39,55 @@ class User extends CI_Controller{
 
 	}
 
+	// forget
+	public function forget(){
+		$email = $this->input->post('email');
+
+		/* 引入扩展函数文件 */
+		$this->load->helper('my_check');
+
+		// 后端正则
+		if (!myCheckEmail($email)){
+			return '邮箱格式不正确!';
+		}
+		else{
+
+			// 生成验证码
+			$code = rand(10000000,99999999);
+
+			$this->load->library('email');            //加载CI的email类  
+	        $this->email->from('hpf@betahouse.us', '转课网');	//	发件人
+	        $this->email->to($email);							// 目的邮箱
+	        $this->email->subject('转课网验证码');			// 邮件标题
+	        $this->email->message('您好，您的转课网新密码为'.$code.",请登录后及时修改！");	// 邮件内容
+	  
+	        if ($this->email->send(FALSE)){
+
+	        	// 插入记录
+	        	$this->load->model('user_model');
+	        	if ($this->user_model->saveEmailCode($email,$code)){
+	        		// 更新密码
+	        		if ($this->user_model->resetPwd($email,$code)){
+	        			echo 'success';	
+	        		}
+	        		else{
+	        			echo '密码修改失败';
+	        		}
+	        	}
+	        	else{	        		
+	        		echo '邮件记录失败，请重试';
+	        	}
+	        }
+	        else{
+	        	echo '邮件发送失败，请重试';
+	        }
+
+	  		//返回包含邮件内容的字符串，包括EMAIL头和EMAIL正文。用于调试。 
+	        // echo $this->email->print_debugger();
+		}
+
+	}
+
 	// ajax logout
 	public function logout(){
 

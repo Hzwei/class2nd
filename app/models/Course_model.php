@@ -5,10 +5,52 @@
 
 class Course_model extends CI_Model{
 	
-	/* 获取所以类别 */ 
+	/* 获取所有类别 */ 
 	public function getCategory(){
 		return $this->db->query('select * from swap_category')->result_array();
 	}
+
+	/* 猜你喜欢 */
+	public function getCourseLikeList($num,$new){
+		if (isset($_SESSION['uid'])){
+
+			$sql = 'select cid from swap_join where uid = ? order by time desc limit ?';
+
+			// 最近参加的 $new 门课程
+			$courseList = $this->db->query($sql,array($_SESSION['uid'],$new))->result_array();
+
+			if ($courseList){
+				// 构造分类ID数组
+				$cateIdList = array();
+				foreach ($courseList as $val){
+					// 遍历获取课程分类ID , 构建数据
+					$sql2 = 'select cid from swap_course where id = ? limit 1';
+					$cateList = $this->db->query($sql2,array($val['cid']))->row_array();
+					$cateIdList[] = $cateList['cid'];
+				}
+
+				// 当无最高权重ID时，默认选取最新参与课程分类iD
+				$cateId = $cateIdList[0];
+
+				// $cateIdList; 获取数组元素权重最高者 wait for add
+
+				 // 获取该分类ID下 $num 门最热课程
+				return $this->getCourseList($cateId,'hot',0,$num);
+			}
+			else{
+				// 未参与任何课程状态下获取 $num 门最热课程
+				return $this->getCourseList(0,'hot',0,$num);
+			}
+
+		}
+		else{
+			// 未登陆状态下获取 $num 门最热课程
+			return $this->getCourseList(0,'hot',0,$num);
+		}
+
+	}
+
+
 
 	/* 获取课程列表 */
 	public function getCourseList($cateId,$order,$start=0,$num=4){
@@ -117,7 +159,25 @@ class Course_model extends CI_Model{
 			return 0;
 		}
 
+	}
 
+
+	/* 获取视频列表 */
+	public function getVideoList($cid){
+		$sql = 'select id,title,sort,time from swap_video where cid =? order by sort asc';
+		return $this->db->query($sql,array($cid))->result_array();
+	}
+
+	/* 获取个人评论情况 */
+	public function getMyComment($cid,$uid){
+		$sql = 'select * from swap_comment where cid = ? and uid = ? limit 1';
+		return $this->db->query($sql,array($cid,intval($uid)))->row_array();
+	}
+
+	/* 插入评论 */
+	public function insertComment($cid,$uid,$uanme,$comment){
+		$sql = 'insert into swap_comment values(null,?,?,?,?,?)';
+		return $this->db->query($sql,array($cid,$uid,$uanme,$comment,time()));
 	}
 
 

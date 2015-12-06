@@ -83,7 +83,7 @@
 /*list*/
 .videolist{
 	width: 1020px;
-	min-height: 200px;
+	min-height: 100px;
 	height: auto;
 	background-color: white;
 	margin: 0 auto;
@@ -106,12 +106,15 @@
 	font-family: Arial, 微软雅黑;
 	font-size: 12px;
 }
+.videolist ul li span{
+	float: right;
+}
 .comment p.more a:hover,.videolist ul li a:hover{
 	color: #1caaea;
 }
 /*end*/
 
-
+/*课程点评*/
 .comment{
 	width: 1020px;
 	margin: 0 auto;
@@ -158,6 +161,29 @@
 .comment p.more a{
 	color:#999;
 }
+/*end*/
+
+/*你的点评*/
+.your_comment{
+	width: 1020px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: white;
+	border: 1px solid #e9e9e9;
+	min-height: 30px;
+	text-align: center;
+}
+
+.your_comment textarea{
+	padding: 10px;
+	width: 80%;
+	height: 60px;
+	resize:none;
+}
+
+/*end*/
 
 
 

@@ -59,8 +59,12 @@ class User_model extends CI_Model{
 
 		}
 
+	}
 
-
+	// 重置密码
+	public function resetPwd($email,$pwd){
+		$sql = 'update swap_users set password = ? where email = ?';
+		return $this->db->query($sql,array(md5($pwd),$email));
 	}
 
 
