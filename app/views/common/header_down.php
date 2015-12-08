@@ -73,12 +73,12 @@
 					<?php if (isset($_SESSION['uid'])){ ?>
 						<span class="display" style="display:none">登录</span>
 						<span class="display" style="display:none">注册</span>
-						<a href="#" class="userinfo" style="color: #518FDC;"><?=$_SESSION['username']?></a>
+						<a href="<? echo base_url(); ?>member" class="userinfo" style="color: #518FDC;"><?=$_SESSION['username']?></a>
 						<span class="logout">退出</span>
 					<?php }else{?>
 						<span class="display">登录</span>
 						<span class="display">注册</span>
-						<a href="#" class="userinfo" style="display:none;color: #518FDC;"></a>
+						<a href="<? echo base_url(); ?>member" class="userinfo" style="display:none;color: #518FDC;"></a>
 						<span class="logout" style="display:none">退出</span>
 					<?php }?>
 				</p>

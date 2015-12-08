@@ -1,0 +1,42 @@
+/*视频页面样式*/
+@charset 'utf-8';
+
+.video-head,.video,.video-nav{
+	width: 1020px;	
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #e9e9e9;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.video-head{
+	min-height: 30px;
+}
+.video-time{
+	float: right;
+	margin-right: 20px;
+}
+.video{
+	min-height: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.video embed{
+	width: 90%;
+}
+.video-nav{
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+.video-nav .pre{
+	margin-right: 30px;
+}
+.video-nav .next{
+	margin-left: 30px;
+}
+

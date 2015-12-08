@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-// 用户模块
+// 用户处理模块
 class User extends CI_Controller{
 
 	// ajax login
@@ -182,6 +182,13 @@ class User extends CI_Controller{
 
 		echo json_encode($data);
 
+	}
+
+	// 重置密码
+	public function resetPwd(){
+		$pwd = $this->input->post('pwd');
+		$this->load->model('user_model');
+		echo $this->user_model->changePwd($pwd);
 	}
 
 

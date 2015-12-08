@@ -1,0 +1,89 @@
+@charset 'utf-8';
+
+.course{
+	width: 980px;
+	min-height: 50px;
+	padding: 10px 20px;
+	margin: 0 auto;
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 1px solid #e9e9e9;
+}
+
+.desc{
+	position: relative;
+	top: -100px;
+}
+.course input{
+	padding: 5px;
+}
+.course textarea{
+	width: 80%;
+	height: 100px;
+	resize:none;
+	padding: 5px;
+}
+.submit{
+	float: right;
+	position: relative;
+	top: -40px;
+	left: -10px;
+}
+
+
+/*list*/
+.videolist{
+	width: 1020px;
+	min-height: 100px;
+	height: auto;
+	background-color: white;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	border: 1px solid #e9e9e9;
+}
+.videolist ul{
+	width: 980px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+.videolist ul li{
+	height: auto;
+	border-bottom: 1px #1caaea double;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.videolist ul li a{
+	color: rgb(102, 102, 102);
+	font-family: Arial, 微软雅黑;
+	font-size: 12px;
+}
+.videolist ul li span{
+	float: right;
+}
+.comment p.more a:hover,.videolist ul li a:hover{
+	color: #1caaea;
+}
+.videolist input{
+	width: 500px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+.videolist textarea{
+	width: 95%;
+	display: block;
+	margin-bottom: 30px;
+}
+.videolist p{
+	color:#1caaea;
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.course-info{
+	color:#1caaea;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+/*end*/

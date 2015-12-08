@@ -103,6 +103,10 @@ $cid = $this->uri->segment(3);
 <div class="head-info">
 	<div class="head-info-left">
 		<p class="course-title">
+			<a href="<?php echo base_url().$control.'/index/'.$cateInfo['id'].'/hot'?>">
+				<span><?=$cateInfo['name']?></span>
+			</a>
+			<span style="color:red">&nbsp; > &nbsp;</span>
 			<?=$courseInfo['title']?>
 		</p>
 		<p class="course-desc"><?=$courseInfo['desc']?></p>

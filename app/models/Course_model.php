@@ -10,6 +10,19 @@ class Course_model extends CI_Model{
 		return $this->db->query('select * from swap_category')->result_array();
 	}
 
+	/* 获取该课程下视频总数 */
+	public function getVideoCount($cid){
+		$sql = 'select count(*) from swap_video where cid = ?';
+		$res = $this->db->query($sql,array($cid))->row_array();
+		return $res['count(*)'];
+	}
+
+	/* 获取课程所属类别 */
+	public function getCateInfo($cid){
+		$sql = 'select * from swap_category where id = ?';
+		return $this->db->query($sql,array($cid))->row_array();
+	}
+
 	/* 猜你喜欢 */
 	public function getCourseLikeList($num,$new){
 		if (isset($_SESSION['uid'])){
@@ -166,7 +179,7 @@ class Course_model extends CI_Model{
 
 	/* 获取视频列表 */
 	public function getVideoList($cid){
-		$sql = 'select id,title,sort,time from swap_video where cid =? order by sort asc';
+		$sql = 'select id,title,sort,link,time from swap_video where cid =? order by sort asc';
 		return $this->db->query($sql,array($cid))->result_array();
 	}
 

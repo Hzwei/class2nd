@@ -94,6 +94,9 @@ class Course extends CI_Controller{
 		// 获取视频列表
 		$videoList = $this->course_model->getVideoList($courseId);
 
+		// 获取所属分类信息
+		$cateInfo = $this->course_model->getCateInfo($courseInfo['cid']);
+
 		$data = array(
 			'courseInfo' => $courseInfo,
 			'courseList'=>$courseList,
@@ -101,7 +104,8 @@ class Course extends CI_Controller{
 			'videoList'=>$videoList,
 			'myComment'=>0,
 			'score'=>0,
-			'joinStatus'=>0
+			'joinStatus'=>0,
+			'cateInfo'=>$cateInfo
 		);
 
 		if (isset($_SESSION['uid'])){
@@ -222,6 +226,40 @@ class Course extends CI_Controller{
 			}
 
 		}
+
+	}
+
+
+	// 视频显示
+	public function video(){
+		$vid = $this->uri->segment(3);
+		
+		$this->load->model('video_model');
+		$this->load->model('course_model');
+
+		// 视频信息
+		$videoInfo = $this->video_model->getVideoInfo($vid);
+
+		// 得到上节和下节视频 array(pre,next)  0则无
+		$nearVideo = $this->video_model->getNearVideo($videoInfo['cid'],$videoInfo['sort']);
+
+		// 获取该课程下视频总数
+		// $videoCount = $this->course_model->getVideoCount($videoInfo['cid']);
+
+		// 所属课程信息
+		$courseInfo = $this->course_model->getCourseInfo($videoInfo['cid']);
+
+		// 获取所属分类信息
+		$cateInfo = $this->course_model->getCateInfo($courseInfo['cid']);
+
+		$data = array(
+			'videoInfo' => $videoInfo,
+			'courseInfo'=>$courseInfo,
+			'cateInfo' => $cateInfo,
+			'nearVideo'=>$nearVideo
+		);
+
+		$this->load->view('course/video',$data);
 
 	}
 
