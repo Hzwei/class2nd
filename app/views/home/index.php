@@ -25,20 +25,20 @@
 	<a href="javascript:void(0)" class="arrR" onclick="nextPage()">&nbsp;</a>
 	<ul class="mypng">
 		<li id="focusIndex1" style="background:url(<? echo base_url(); ?>static/img/bg-line1.gif) repeat-x;">
-			<div class="focusL"><a href="#"><img src="<? echo base_url(); ?>static/img/slide1.png" width="1000" height="644" /></a></div>
-			<div class="focusR"><a href="##"><img src="<? echo base_url(); ?>static/img/slide2.png" width="1000" height="644" /></a></div>
+			<div class="focusL"><a href="<?php echo base_url('course/info').'/20';?>"><img src="<? echo base_url(); ?>static/img/9876545678.png" width="1000" height="644" /></a></div>
+			<div class="focusR"><a href="<?php echo base_url('course/info').'/20';?>"></a></div>
 		</li>
 		<li id="focusIndex2">
-			<div class="focusL"><a href="#"><img src="<? echo base_url(); ?>static/img/slide3.png" width="1000" height="644" /></a></div>
-			<div class="focusR"><a href="#"><img src="<? echo base_url(); ?>static/img/slide2.png" width="1000" height="644" /></a></div>
+			<div class="focusL"><a href="<?php echo base_url('course/info').'/19';?>"><img src="<? echo base_url(); ?>static/img/3422321111.jpg" width="1000" height="644" /></a></div>
+			<div class="focusR"><a href="<?php echo base_url('course/info').'/19';?>"></a></div>
 		</li>
 		<li id="focusIndex3" style="background:url(<? echo base_url(); ?>static/img/bg-line1.gif) repeat-x;">
-			<div class="focusL"><a href="#"><img src="<? echo base_url(); ?>static/img/slide4.png" width="1000" height="644" /></a></div>
-			<div class="focusR"><a href="#"><img src="<? echo base_url(); ?>static/img/slide5.png" width="1000" height="644" /></a></div>
+			<div class="focusL"><a href="<?php echo base_url('course/info').'/21';?>"><img src="<? echo base_url(); ?>static/img/3399092220.jpg" width="1000" height="644" /></a></div>
+			<div class="focusR"><a href="<?php echo base_url('course/info').'/15';?>"></a></div>
 		</li>
 		<li id="focusIndex4" style="background:url(<? echo base_url(); ?>static/img/bg-line2.gif) repeat-x;">
-			<div class="focusL"><a href="#"><img src="<? echo base_url(); ?>static/img/slide4.png" width="1000" height="644" /></a></div>
-			<div class="focusR"><a href="#"><img src="<? echo base_url(); ?>static/img/slide5.png" width="1000" height="644" /></a></div>
+			<div class="focusL"><a href="<?php echo base_url('course/info').'/22';?>"><img src="<? echo base_url(); ?>static/img/6666554321.jpg" width="1000" height="644" /></a></div>
+			<div class="focusR"><a href="<?php echo base_url('course/info').'/14';?>"></a></div>
 		</li>	    
 	</ul>
 </div>

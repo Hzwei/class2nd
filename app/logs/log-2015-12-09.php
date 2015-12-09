@@ -4707,3 +4707,1306 @@ INFO - 2015-12-09 16:05:03 --> File loaded: E:\www\class2nd\app\views\common/foo
 INFO - 2015-12-09 16:05:03 --> File loaded: E:\www\class2nd\app\views\home/index.php
 INFO - 2015-12-09 16:05:03 --> Final output sent to browser
 DEBUG - 2015-12-09 16:05:03 --> Total execution time: 1.0494
+INFO - 2015-12-09 16:09:02 --> Config Class Initialized
+INFO - 2015-12-09 16:09:02 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:09:02 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:09:02 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:09:03 --> URI Class Initialized
+INFO - 2015-12-09 16:09:03 --> Router Class Initialized
+INFO - 2015-12-09 16:09:03 --> Output Class Initialized
+INFO - 2015-12-09 16:09:03 --> Security Class Initialized
+DEBUG - 2015-12-09 16:09:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:09:03 --> Input Class Initialized
+INFO - 2015-12-09 16:09:03 --> Language Class Initialized
+INFO - 2015-12-09 16:09:03 --> Loader Class Initialized
+INFO - 2015-12-09 16:09:03 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:09:03 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:09:04 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:09:04 --> Controller Class Initialized
+INFO - 2015-12-09 16:09:04 --> Model Class Initialized
+INFO - 2015-12-09 16:09:04 --> Model Class Initialized
+INFO - 2015-12-09 16:09:04 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:09:04 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:09:04 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:09:04 --> File loaded: E:\www\class2nd\app\views\course/index.php
+INFO - 2015-12-09 16:09:04 --> Final output sent to browser
+DEBUG - 2015-12-09 16:09:04 --> Total execution time: 1.0805
+INFO - 2015-12-09 16:09:07 --> Config Class Initialized
+INFO - 2015-12-09 16:09:07 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:09:07 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:09:07 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:09:07 --> URI Class Initialized
+INFO - 2015-12-09 16:09:07 --> Router Class Initialized
+INFO - 2015-12-09 16:09:07 --> Output Class Initialized
+INFO - 2015-12-09 16:09:07 --> Security Class Initialized
+DEBUG - 2015-12-09 16:09:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:09:07 --> Input Class Initialized
+INFO - 2015-12-09 16:09:07 --> Language Class Initialized
+INFO - 2015-12-09 16:09:07 --> Loader Class Initialized
+INFO - 2015-12-09 16:09:07 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:09:07 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:09:08 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:09:08 --> Controller Class Initialized
+INFO - 2015-12-09 16:09:08 --> Model Class Initialized
+INFO - 2015-12-09 16:09:08 --> Model Class Initialized
+INFO - 2015-12-09 16:09:08 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:09:08 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:09:08 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:09:08 --> File loaded: E:\www\class2nd\app\views\course/index.php
+INFO - 2015-12-09 16:09:08 --> Final output sent to browser
+DEBUG - 2015-12-09 16:09:08 --> Total execution time: 1.0647
+INFO - 2015-12-09 16:09:26 --> Config Class Initialized
+INFO - 2015-12-09 16:09:26 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:09:26 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:09:26 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:09:26 --> URI Class Initialized
+INFO - 2015-12-09 16:09:26 --> Router Class Initialized
+INFO - 2015-12-09 16:09:26 --> Output Class Initialized
+INFO - 2015-12-09 16:09:26 --> Security Class Initialized
+DEBUG - 2015-12-09 16:09:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:09:26 --> Input Class Initialized
+INFO - 2015-12-09 16:09:26 --> Language Class Initialized
+INFO - 2015-12-09 16:09:26 --> Loader Class Initialized
+INFO - 2015-12-09 16:09:26 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:09:26 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:09:27 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:09:27 --> Controller Class Initialized
+INFO - 2015-12-09 16:09:27 --> Model Class Initialized
+INFO - 2015-12-09 16:09:27 --> Model Class Initialized
+INFO - 2015-12-09 16:09:27 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:09:27 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:09:27 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:09:27 --> File loaded: E:\www\class2nd\app\views\course/index.php
+INFO - 2015-12-09 16:09:27 --> Final output sent to browser
+DEBUG - 2015-12-09 16:09:27 --> Total execution time: 1.0476
+INFO - 2015-12-09 16:09:29 --> Config Class Initialized
+INFO - 2015-12-09 16:09:29 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:09:29 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:09:29 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:09:29 --> URI Class Initialized
+INFO - 2015-12-09 16:09:29 --> Router Class Initialized
+INFO - 2015-12-09 16:09:29 --> Output Class Initialized
+INFO - 2015-12-09 16:09:29 --> Security Class Initialized
+DEBUG - 2015-12-09 16:09:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:09:29 --> Input Class Initialized
+INFO - 2015-12-09 16:09:29 --> Language Class Initialized
+INFO - 2015-12-09 16:09:29 --> Loader Class Initialized
+INFO - 2015-12-09 16:09:29 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:09:29 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:09:30 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:09:30 --> Controller Class Initialized
+INFO - 2015-12-09 16:09:30 --> Model Class Initialized
+INFO - 2015-12-09 16:09:30 --> Model Class Initialized
+INFO - 2015-12-09 16:09:30 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:09:30 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:09:30 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:09:30 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:09:30 --> Final output sent to browser
+DEBUG - 2015-12-09 16:09:30 --> Total execution time: 1.0538
+INFO - 2015-12-09 16:09:37 --> Config Class Initialized
+INFO - 2015-12-09 16:09:37 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:09:37 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:09:37 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:09:37 --> URI Class Initialized
+INFO - 2015-12-09 16:09:37 --> Router Class Initialized
+INFO - 2015-12-09 16:09:37 --> Output Class Initialized
+INFO - 2015-12-09 16:09:37 --> Security Class Initialized
+DEBUG - 2015-12-09 16:09:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:09:37 --> Input Class Initialized
+INFO - 2015-12-09 16:09:37 --> Language Class Initialized
+INFO - 2015-12-09 16:09:37 --> Loader Class Initialized
+INFO - 2015-12-09 16:09:37 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:09:37 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:09:38 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:09:38 --> Controller Class Initialized
+INFO - 2015-12-09 16:09:38 --> Model Class Initialized
+INFO - 2015-12-09 16:09:38 --> Model Class Initialized
+INFO - 2015-12-09 16:09:38 --> Model Class Initialized
+INFO - 2015-12-09 16:09:38 --> Model Class Initialized
+INFO - 2015-12-09 16:09:38 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:09:38 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:09:38 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:09:38 --> File loaded: E:\www\class2nd\app\views\course/video.php
+INFO - 2015-12-09 16:09:38 --> Final output sent to browser
+DEBUG - 2015-12-09 16:09:38 --> Total execution time: 1.0694
+INFO - 2015-12-09 16:09:45 --> Config Class Initialized
+INFO - 2015-12-09 16:09:45 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:09:45 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:09:45 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:09:45 --> URI Class Initialized
+DEBUG - 2015-12-09 16:09:45 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:09:45 --> Router Class Initialized
+INFO - 2015-12-09 16:09:45 --> Output Class Initialized
+INFO - 2015-12-09 16:09:45 --> Security Class Initialized
+DEBUG - 2015-12-09 16:09:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:09:45 --> Input Class Initialized
+INFO - 2015-12-09 16:09:45 --> Language Class Initialized
+INFO - 2015-12-09 16:09:45 --> Loader Class Initialized
+INFO - 2015-12-09 16:09:45 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:09:45 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:09:46 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:09:46 --> Controller Class Initialized
+INFO - 2015-12-09 16:09:46 --> Model Class Initialized
+INFO - 2015-12-09 16:09:46 --> Model Class Initialized
+INFO - 2015-12-09 16:09:46 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:09:46 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:09:46 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:09:46 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:09:46 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:09:46 --> Final output sent to browser
+DEBUG - 2015-12-09 16:09:46 --> Total execution time: 1.0626
+INFO - 2015-12-09 16:12:35 --> Config Class Initialized
+INFO - 2015-12-09 16:12:35 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:12:35 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:12:35 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:12:35 --> URI Class Initialized
+INFO - 2015-12-09 16:12:35 --> Router Class Initialized
+INFO - 2015-12-09 16:12:35 --> Output Class Initialized
+INFO - 2015-12-09 16:12:35 --> Security Class Initialized
+DEBUG - 2015-12-09 16:12:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:12:35 --> Input Class Initialized
+INFO - 2015-12-09 16:12:35 --> Language Class Initialized
+INFO - 2015-12-09 16:12:35 --> Loader Class Initialized
+INFO - 2015-12-09 16:12:35 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:12:35 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:12:36 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:12:36 --> Controller Class Initialized
+INFO - 2015-12-09 16:12:36 --> Model Class Initialized
+INFO - 2015-12-09 16:12:36 --> Model Class Initialized
+INFO - 2015-12-09 16:12:36 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:12:36 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:12:36 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:12:36 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:12:36 --> Final output sent to browser
+DEBUG - 2015-12-09 16:12:36 --> Total execution time: 1.0662
+INFO - 2015-12-09 16:12:36 --> Config Class Initialized
+INFO - 2015-12-09 16:12:36 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:12:36 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:12:36 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:12:36 --> URI Class Initialized
+INFO - 2015-12-09 16:12:36 --> Router Class Initialized
+INFO - 2015-12-09 16:12:36 --> Output Class Initialized
+INFO - 2015-12-09 16:12:36 --> Security Class Initialized
+DEBUG - 2015-12-09 16:12:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:12:36 --> Input Class Initialized
+INFO - 2015-12-09 16:12:36 --> Language Class Initialized
+INFO - 2015-12-09 16:12:36 --> Loader Class Initialized
+INFO - 2015-12-09 16:12:36 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:12:36 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:12:37 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:12:37 --> Controller Class Initialized
+INFO - 2015-12-09 16:12:37 --> Model Class Initialized
+INFO - 2015-12-09 16:12:37 --> Config Class Initialized
+INFO - 2015-12-09 16:12:37 --> Hooks Class Initialized
+INFO - 2015-12-09 16:12:37 --> Model Class Initialized
+DEBUG - 2015-12-09 16:12:37 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:12:37 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:12:37 --> URI Class Initialized
+INFO - 2015-12-09 16:12:37 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:12:37 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:12:37 --> Router Class Initialized
+INFO - 2015-12-09 16:12:37 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:12:37 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:12:37 --> Final output sent to browser
+DEBUG - 2015-12-09 16:12:37 --> Total execution time: 1.0601
+INFO - 2015-12-09 16:12:37 --> Output Class Initialized
+INFO - 2015-12-09 16:12:37 --> Security Class Initialized
+DEBUG - 2015-12-09 16:12:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:12:37 --> Input Class Initialized
+INFO - 2015-12-09 16:12:37 --> Language Class Initialized
+INFO - 2015-12-09 16:12:37 --> Loader Class Initialized
+INFO - 2015-12-09 16:12:37 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:12:37 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:12:38 --> Config Class Initialized
+INFO - 2015-12-09 16:12:38 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:12:38 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:12:38 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:12:38 --> URI Class Initialized
+INFO - 2015-12-09 16:12:38 --> Router Class Initialized
+INFO - 2015-12-09 16:12:38 --> Output Class Initialized
+INFO - 2015-12-09 16:12:38 --> Security Class Initialized
+DEBUG - 2015-12-09 16:12:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:12:38 --> Input Class Initialized
+INFO - 2015-12-09 16:12:38 --> Language Class Initialized
+INFO - 2015-12-09 16:12:38 --> Loader Class Initialized
+INFO - 2015-12-09 16:12:38 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:12:38 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:12:38 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:12:38 --> Controller Class Initialized
+INFO - 2015-12-09 16:12:38 --> Model Class Initialized
+INFO - 2015-12-09 16:12:38 --> Model Class Initialized
+INFO - 2015-12-09 16:12:38 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:12:38 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:12:38 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:12:38 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:12:38 --> Final output sent to browser
+DEBUG - 2015-12-09 16:12:38 --> Total execution time: 1.1005
+INFO - 2015-12-09 16:12:39 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:12:39 --> Controller Class Initialized
+INFO - 2015-12-09 16:12:39 --> Model Class Initialized
+INFO - 2015-12-09 16:12:39 --> Model Class Initialized
+INFO - 2015-12-09 16:12:39 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:12:39 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:12:39 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:12:39 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:12:39 --> Final output sent to browser
+DEBUG - 2015-12-09 16:12:39 --> Total execution time: 1.0500
+INFO - 2015-12-09 16:14:45 --> Config Class Initialized
+INFO - 2015-12-09 16:14:45 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:14:45 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:14:45 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:14:45 --> URI Class Initialized
+DEBUG - 2015-12-09 16:14:45 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:14:45 --> Router Class Initialized
+INFO - 2015-12-09 16:14:45 --> Output Class Initialized
+INFO - 2015-12-09 16:14:45 --> Security Class Initialized
+DEBUG - 2015-12-09 16:14:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:14:45 --> Input Class Initialized
+INFO - 2015-12-09 16:14:45 --> Language Class Initialized
+INFO - 2015-12-09 16:14:45 --> Loader Class Initialized
+INFO - 2015-12-09 16:14:45 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:14:45 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:14:46 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:14:46 --> Controller Class Initialized
+INFO - 2015-12-09 16:14:46 --> Model Class Initialized
+INFO - 2015-12-09 16:14:46 --> Model Class Initialized
+INFO - 2015-12-09 16:14:46 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:14:46 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:14:46 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:14:46 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:14:46 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:14:46 --> Final output sent to browser
+DEBUG - 2015-12-09 16:14:46 --> Total execution time: 1.0962
+INFO - 2015-12-09 16:14:48 --> Config Class Initialized
+INFO - 2015-12-09 16:14:48 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:14:48 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:14:48 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:14:48 --> URI Class Initialized
+INFO - 2015-12-09 16:14:48 --> Router Class Initialized
+INFO - 2015-12-09 16:14:48 --> Output Class Initialized
+INFO - 2015-12-09 16:14:48 --> Security Class Initialized
+DEBUG - 2015-12-09 16:14:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:14:48 --> Input Class Initialized
+INFO - 2015-12-09 16:14:48 --> Language Class Initialized
+INFO - 2015-12-09 16:14:48 --> Loader Class Initialized
+INFO - 2015-12-09 16:14:48 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:14:48 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:14:49 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:14:49 --> Controller Class Initialized
+INFO - 2015-12-09 16:14:49 --> Model Class Initialized
+INFO - 2015-12-09 16:14:49 --> Model Class Initialized
+INFO - 2015-12-09 16:14:49 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:14:49 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:14:49 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:14:49 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:14:49 --> Final output sent to browser
+DEBUG - 2015-12-09 16:14:49 --> Total execution time: 1.0725
+INFO - 2015-12-09 16:14:50 --> Config Class Initialized
+INFO - 2015-12-09 16:14:50 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:14:50 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:14:50 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:14:50 --> URI Class Initialized
+DEBUG - 2015-12-09 16:14:50 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:14:50 --> Router Class Initialized
+INFO - 2015-12-09 16:14:50 --> Output Class Initialized
+INFO - 2015-12-09 16:14:50 --> Security Class Initialized
+DEBUG - 2015-12-09 16:14:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:14:50 --> Input Class Initialized
+INFO - 2015-12-09 16:14:50 --> Language Class Initialized
+INFO - 2015-12-09 16:14:50 --> Loader Class Initialized
+INFO - 2015-12-09 16:14:50 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:14:50 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:14:51 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:14:51 --> Controller Class Initialized
+INFO - 2015-12-09 16:14:51 --> Model Class Initialized
+INFO - 2015-12-09 16:14:51 --> Model Class Initialized
+INFO - 2015-12-09 16:14:51 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:14:51 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:14:51 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:14:51 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:14:51 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:14:51 --> Final output sent to browser
+DEBUG - 2015-12-09 16:14:51 --> Total execution time: 1.0864
+INFO - 2015-12-09 16:14:55 --> Config Class Initialized
+INFO - 2015-12-09 16:14:55 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:14:55 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:14:55 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:14:55 --> URI Class Initialized
+INFO - 2015-12-09 16:14:55 --> Router Class Initialized
+INFO - 2015-12-09 16:14:55 --> Output Class Initialized
+INFO - 2015-12-09 16:14:55 --> Security Class Initialized
+DEBUG - 2015-12-09 16:14:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:14:55 --> Input Class Initialized
+INFO - 2015-12-09 16:14:55 --> Language Class Initialized
+INFO - 2015-12-09 16:14:55 --> Loader Class Initialized
+INFO - 2015-12-09 16:14:55 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:14:55 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:14:56 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:14:56 --> Controller Class Initialized
+INFO - 2015-12-09 16:14:56 --> Model Class Initialized
+INFO - 2015-12-09 16:14:56 --> Model Class Initialized
+INFO - 2015-12-09 16:14:56 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:14:56 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:14:56 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:14:56 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:14:56 --> Final output sent to browser
+DEBUG - 2015-12-09 16:14:56 --> Total execution time: 1.0768
+INFO - 2015-12-09 16:14:57 --> Config Class Initialized
+INFO - 2015-12-09 16:14:57 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:14:57 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:14:57 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:14:57 --> URI Class Initialized
+DEBUG - 2015-12-09 16:14:57 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:14:57 --> Router Class Initialized
+INFO - 2015-12-09 16:14:57 --> Output Class Initialized
+INFO - 2015-12-09 16:14:57 --> Security Class Initialized
+DEBUG - 2015-12-09 16:14:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:14:57 --> Input Class Initialized
+INFO - 2015-12-09 16:14:57 --> Language Class Initialized
+INFO - 2015-12-09 16:14:57 --> Loader Class Initialized
+INFO - 2015-12-09 16:14:57 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:14:57 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:14:58 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:14:58 --> Controller Class Initialized
+INFO - 2015-12-09 16:14:58 --> Model Class Initialized
+INFO - 2015-12-09 16:14:58 --> Model Class Initialized
+INFO - 2015-12-09 16:14:58 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:14:58 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:14:58 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:14:58 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:14:58 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:14:58 --> Final output sent to browser
+DEBUG - 2015-12-09 16:14:58 --> Total execution time: 1.0945
+INFO - 2015-12-09 16:16:59 --> Config Class Initialized
+INFO - 2015-12-09 16:16:59 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:17:00 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:17:00 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:17:00 --> URI Class Initialized
+DEBUG - 2015-12-09 16:17:00 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:17:00 --> Router Class Initialized
+INFO - 2015-12-09 16:17:00 --> Output Class Initialized
+INFO - 2015-12-09 16:17:00 --> Security Class Initialized
+DEBUG - 2015-12-09 16:17:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:17:00 --> Input Class Initialized
+INFO - 2015-12-09 16:17:00 --> Language Class Initialized
+INFO - 2015-12-09 16:17:00 --> Loader Class Initialized
+INFO - 2015-12-09 16:17:00 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:17:00 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:17:01 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:17:01 --> Controller Class Initialized
+INFO - 2015-12-09 16:17:01 --> Model Class Initialized
+INFO - 2015-12-09 16:17:01 --> Model Class Initialized
+INFO - 2015-12-09 16:17:01 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:17:01 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:17:01 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:17:01 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:17:01 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:17:01 --> Final output sent to browser
+DEBUG - 2015-12-09 16:17:01 --> Total execution time: 1.1060
+INFO - 2015-12-09 16:17:31 --> Config Class Initialized
+INFO - 2015-12-09 16:17:31 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:17:31 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:17:31 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:17:31 --> URI Class Initialized
+DEBUG - 2015-12-09 16:17:31 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:17:31 --> Router Class Initialized
+INFO - 2015-12-09 16:17:31 --> Output Class Initialized
+INFO - 2015-12-09 16:17:31 --> Security Class Initialized
+DEBUG - 2015-12-09 16:17:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:17:31 --> Input Class Initialized
+INFO - 2015-12-09 16:17:31 --> Language Class Initialized
+INFO - 2015-12-09 16:17:31 --> Loader Class Initialized
+INFO - 2015-12-09 16:17:31 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:17:31 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:17:32 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:17:32 --> Controller Class Initialized
+INFO - 2015-12-09 16:17:32 --> Model Class Initialized
+INFO - 2015-12-09 16:17:32 --> Model Class Initialized
+INFO - 2015-12-09 16:17:32 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:17:32 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:17:32 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:17:32 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:17:32 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:17:32 --> Final output sent to browser
+DEBUG - 2015-12-09 16:17:32 --> Total execution time: 1.0830
+INFO - 2015-12-09 16:17:54 --> Config Class Initialized
+INFO - 2015-12-09 16:17:54 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:17:54 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:17:54 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:17:54 --> URI Class Initialized
+DEBUG - 2015-12-09 16:17:54 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:17:54 --> Router Class Initialized
+INFO - 2015-12-09 16:17:54 --> Output Class Initialized
+INFO - 2015-12-09 16:17:54 --> Security Class Initialized
+DEBUG - 2015-12-09 16:17:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:17:54 --> Input Class Initialized
+INFO - 2015-12-09 16:17:54 --> Language Class Initialized
+INFO - 2015-12-09 16:17:54 --> Loader Class Initialized
+INFO - 2015-12-09 16:17:54 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:17:54 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:17:55 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:17:55 --> Controller Class Initialized
+INFO - 2015-12-09 16:17:55 --> Model Class Initialized
+INFO - 2015-12-09 16:17:55 --> Model Class Initialized
+INFO - 2015-12-09 16:17:55 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:17:55 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:17:55 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:17:55 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:17:55 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:17:55 --> Final output sent to browser
+DEBUG - 2015-12-09 16:17:55 --> Total execution time: 1.0864
+INFO - 2015-12-09 16:18:06 --> Config Class Initialized
+INFO - 2015-12-09 16:18:06 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:18:06 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:18:06 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:18:06 --> URI Class Initialized
+INFO - 2015-12-09 16:18:06 --> Router Class Initialized
+INFO - 2015-12-09 16:18:06 --> Output Class Initialized
+INFO - 2015-12-09 16:18:06 --> Security Class Initialized
+DEBUG - 2015-12-09 16:18:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:18:06 --> Input Class Initialized
+INFO - 2015-12-09 16:18:06 --> Language Class Initialized
+INFO - 2015-12-09 16:18:06 --> Loader Class Initialized
+INFO - 2015-12-09 16:18:06 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:18:06 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:18:07 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:18:07 --> Controller Class Initialized
+INFO - 2015-12-09 16:18:07 --> Model Class Initialized
+INFO - 2015-12-09 16:18:07 --> Model Class Initialized
+INFO - 2015-12-09 16:18:07 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:18:07 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:18:07 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:18:07 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:18:07 --> Final output sent to browser
+DEBUG - 2015-12-09 16:18:07 --> Total execution time: 1.0711
+INFO - 2015-12-09 16:18:08 --> Config Class Initialized
+INFO - 2015-12-09 16:18:08 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:18:08 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:18:08 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:18:08 --> URI Class Initialized
+DEBUG - 2015-12-09 16:18:08 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:18:08 --> Router Class Initialized
+INFO - 2015-12-09 16:18:08 --> Output Class Initialized
+INFO - 2015-12-09 16:18:08 --> Security Class Initialized
+DEBUG - 2015-12-09 16:18:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:18:08 --> Input Class Initialized
+INFO - 2015-12-09 16:18:08 --> Language Class Initialized
+INFO - 2015-12-09 16:18:08 --> Loader Class Initialized
+INFO - 2015-12-09 16:18:08 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:18:08 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:18:09 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:18:09 --> Controller Class Initialized
+INFO - 2015-12-09 16:18:09 --> Model Class Initialized
+INFO - 2015-12-09 16:18:09 --> Model Class Initialized
+INFO - 2015-12-09 16:18:09 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:18:09 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:18:09 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:18:09 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:18:09 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:18:09 --> Final output sent to browser
+DEBUG - 2015-12-09 16:18:09 --> Total execution time: 1.0849
+INFO - 2015-12-09 16:18:19 --> Config Class Initialized
+INFO - 2015-12-09 16:18:19 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:18:19 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:18:19 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:18:19 --> URI Class Initialized
+INFO - 2015-12-09 16:18:19 --> Router Class Initialized
+INFO - 2015-12-09 16:18:19 --> Output Class Initialized
+INFO - 2015-12-09 16:18:19 --> Security Class Initialized
+DEBUG - 2015-12-09 16:18:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:18:19 --> Input Class Initialized
+INFO - 2015-12-09 16:18:19 --> Language Class Initialized
+INFO - 2015-12-09 16:18:19 --> Loader Class Initialized
+INFO - 2015-12-09 16:18:19 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:18:19 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:18:20 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:18:20 --> Controller Class Initialized
+INFO - 2015-12-09 16:18:20 --> Model Class Initialized
+INFO - 2015-12-09 16:18:20 --> Model Class Initialized
+INFO - 2015-12-09 16:18:20 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:18:20 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:18:20 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:18:20 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:18:20 --> Final output sent to browser
+DEBUG - 2015-12-09 16:18:20 --> Total execution time: 1.0804
+INFO - 2015-12-09 16:18:50 --> Config Class Initialized
+INFO - 2015-12-09 16:18:50 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:18:50 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:18:50 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:18:50 --> URI Class Initialized
+DEBUG - 2015-12-09 16:18:50 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:18:50 --> Router Class Initialized
+INFO - 2015-12-09 16:18:50 --> Output Class Initialized
+INFO - 2015-12-09 16:18:50 --> Security Class Initialized
+DEBUG - 2015-12-09 16:18:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:18:50 --> Input Class Initialized
+INFO - 2015-12-09 16:18:50 --> Language Class Initialized
+INFO - 2015-12-09 16:18:50 --> Loader Class Initialized
+INFO - 2015-12-09 16:18:50 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:18:50 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:18:51 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:18:51 --> Controller Class Initialized
+INFO - 2015-12-09 16:18:51 --> Model Class Initialized
+INFO - 2015-12-09 16:18:51 --> Model Class Initialized
+INFO - 2015-12-09 16:18:51 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:18:51 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:18:51 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:18:51 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:18:51 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:18:51 --> Final output sent to browser
+DEBUG - 2015-12-09 16:18:51 --> Total execution time: 1.0983
+INFO - 2015-12-09 16:18:57 --> Config Class Initialized
+INFO - 2015-12-09 16:18:57 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:18:57 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:18:57 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:18:57 --> URI Class Initialized
+INFO - 2015-12-09 16:18:57 --> Router Class Initialized
+INFO - 2015-12-09 16:18:57 --> Output Class Initialized
+INFO - 2015-12-09 16:18:57 --> Security Class Initialized
+DEBUG - 2015-12-09 16:18:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:18:57 --> Input Class Initialized
+INFO - 2015-12-09 16:18:57 --> Language Class Initialized
+INFO - 2015-12-09 16:18:57 --> Loader Class Initialized
+INFO - 2015-12-09 16:18:57 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:18:57 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:18:58 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:18:58 --> Controller Class Initialized
+INFO - 2015-12-09 16:18:58 --> Model Class Initialized
+INFO - 2015-12-09 16:18:58 --> Model Class Initialized
+INFO - 2015-12-09 16:18:58 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:18:58 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:18:58 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:18:58 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:18:58 --> Final output sent to browser
+DEBUG - 2015-12-09 16:18:58 --> Total execution time: 1.0573
+INFO - 2015-12-09 16:19:00 --> Config Class Initialized
+INFO - 2015-12-09 16:19:00 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:19:00 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:19:00 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:19:00 --> URI Class Initialized
+INFO - 2015-12-09 16:19:00 --> Router Class Initialized
+INFO - 2015-12-09 16:19:00 --> Output Class Initialized
+INFO - 2015-12-09 16:19:00 --> Security Class Initialized
+DEBUG - 2015-12-09 16:19:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:19:00 --> Input Class Initialized
+INFO - 2015-12-09 16:19:00 --> Language Class Initialized
+INFO - 2015-12-09 16:19:00 --> Loader Class Initialized
+INFO - 2015-12-09 16:19:00 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:19:00 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:19:01 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:19:01 --> Controller Class Initialized
+INFO - 2015-12-09 16:19:01 --> Model Class Initialized
+INFO - 2015-12-09 16:19:01 --> Model Class Initialized
+INFO - 2015-12-09 16:19:01 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:19:01 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:19:01 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:19:01 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:19:01 --> Final output sent to browser
+DEBUG - 2015-12-09 16:19:01 --> Total execution time: 1.0808
+INFO - 2015-12-09 16:20:53 --> Config Class Initialized
+INFO - 2015-12-09 16:20:53 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:20:53 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:20:53 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:20:53 --> URI Class Initialized
+DEBUG - 2015-12-09 16:20:53 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:20:53 --> Router Class Initialized
+INFO - 2015-12-09 16:20:53 --> Output Class Initialized
+INFO - 2015-12-09 16:20:53 --> Security Class Initialized
+DEBUG - 2015-12-09 16:20:53 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:20:53 --> Input Class Initialized
+INFO - 2015-12-09 16:20:53 --> Language Class Initialized
+INFO - 2015-12-09 16:20:53 --> Loader Class Initialized
+INFO - 2015-12-09 16:20:53 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:20:53 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:20:54 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:20:54 --> Controller Class Initialized
+INFO - 2015-12-09 16:20:54 --> Model Class Initialized
+INFO - 2015-12-09 16:20:54 --> Model Class Initialized
+INFO - 2015-12-09 16:20:54 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:20:54 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:20:54 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:20:54 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:20:54 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:20:54 --> Final output sent to browser
+DEBUG - 2015-12-09 16:20:54 --> Total execution time: 1.0755
+INFO - 2015-12-09 16:21:17 --> Config Class Initialized
+INFO - 2015-12-09 16:21:17 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:21:17 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:21:17 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:21:17 --> URI Class Initialized
+INFO - 2015-12-09 16:21:17 --> Router Class Initialized
+INFO - 2015-12-09 16:21:17 --> Output Class Initialized
+INFO - 2015-12-09 16:21:17 --> Security Class Initialized
+DEBUG - 2015-12-09 16:21:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:21:17 --> Input Class Initialized
+INFO - 2015-12-09 16:21:17 --> Language Class Initialized
+INFO - 2015-12-09 16:21:17 --> Loader Class Initialized
+INFO - 2015-12-09 16:21:17 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:21:17 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:21:18 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:21:18 --> Controller Class Initialized
+INFO - 2015-12-09 16:21:18 --> Model Class Initialized
+INFO - 2015-12-09 16:21:18 --> Model Class Initialized
+INFO - 2015-12-09 16:21:18 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:21:18 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:21:18 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:21:18 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:21:18 --> Final output sent to browser
+DEBUG - 2015-12-09 16:21:18 --> Total execution time: 1.0607
+INFO - 2015-12-09 16:21:19 --> Config Class Initialized
+INFO - 2015-12-09 16:21:19 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:21:19 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:21:19 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:21:19 --> URI Class Initialized
+DEBUG - 2015-12-09 16:21:19 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:21:19 --> Router Class Initialized
+INFO - 2015-12-09 16:21:19 --> Output Class Initialized
+INFO - 2015-12-09 16:21:19 --> Security Class Initialized
+DEBUG - 2015-12-09 16:21:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:21:19 --> Input Class Initialized
+INFO - 2015-12-09 16:21:19 --> Language Class Initialized
+INFO - 2015-12-09 16:21:19 --> Loader Class Initialized
+INFO - 2015-12-09 16:21:19 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:21:19 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:21:20 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:21:20 --> Controller Class Initialized
+INFO - 2015-12-09 16:21:20 --> Model Class Initialized
+INFO - 2015-12-09 16:21:20 --> Model Class Initialized
+INFO - 2015-12-09 16:21:20 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:21:20 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:21:20 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:21:20 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:21:20 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:21:20 --> Final output sent to browser
+DEBUG - 2015-12-09 16:21:20 --> Total execution time: 1.0681
+INFO - 2015-12-09 16:28:44 --> Config Class Initialized
+INFO - 2015-12-09 16:28:44 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:28:44 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:28:44 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:28:44 --> URI Class Initialized
+INFO - 2015-12-09 16:28:44 --> Router Class Initialized
+INFO - 2015-12-09 16:28:44 --> Output Class Initialized
+INFO - 2015-12-09 16:28:44 --> Security Class Initialized
+DEBUG - 2015-12-09 16:28:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:28:44 --> Input Class Initialized
+INFO - 2015-12-09 16:28:44 --> Language Class Initialized
+INFO - 2015-12-09 16:28:44 --> Loader Class Initialized
+INFO - 2015-12-09 16:28:44 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:28:44 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:28:45 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:28:45 --> Controller Class Initialized
+INFO - 2015-12-09 16:28:45 --> Model Class Initialized
+INFO - 2015-12-09 16:28:45 --> Model Class Initialized
+INFO - 2015-12-09 16:28:45 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:28:45 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:28:45 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:28:45 --> File loaded: E:\www\class2nd\app\views\course/index.php
+INFO - 2015-12-09 16:28:45 --> Final output sent to browser
+DEBUG - 2015-12-09 16:28:45 --> Total execution time: 1.0604
+INFO - 2015-12-09 16:28:52 --> Config Class Initialized
+INFO - 2015-12-09 16:28:52 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:28:52 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:28:52 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:28:52 --> URI Class Initialized
+INFO - 2015-12-09 16:28:52 --> Router Class Initialized
+INFO - 2015-12-09 16:28:52 --> Output Class Initialized
+INFO - 2015-12-09 16:28:52 --> Security Class Initialized
+DEBUG - 2015-12-09 16:28:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:28:52 --> Input Class Initialized
+INFO - 2015-12-09 16:28:52 --> Language Class Initialized
+INFO - 2015-12-09 16:28:52 --> Loader Class Initialized
+INFO - 2015-12-09 16:28:52 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:28:52 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:28:53 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:28:53 --> Controller Class Initialized
+INFO - 2015-12-09 16:28:53 --> Model Class Initialized
+INFO - 2015-12-09 16:28:53 --> Model Class Initialized
+INFO - 2015-12-09 16:28:53 --> Final output sent to browser
+DEBUG - 2015-12-09 16:28:53 --> Total execution time: 1.0469
+INFO - 2015-12-09 16:29:00 --> Config Class Initialized
+INFO - 2015-12-09 16:29:00 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:29:00 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:29:00 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:29:00 --> URI Class Initialized
+INFO - 2015-12-09 16:29:00 --> Router Class Initialized
+INFO - 2015-12-09 16:29:00 --> Output Class Initialized
+INFO - 2015-12-09 16:29:00 --> Security Class Initialized
+DEBUG - 2015-12-09 16:29:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:29:00 --> Input Class Initialized
+INFO - 2015-12-09 16:29:00 --> Language Class Initialized
+INFO - 2015-12-09 16:29:00 --> Loader Class Initialized
+INFO - 2015-12-09 16:29:00 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:29:00 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:29:01 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:29:01 --> Controller Class Initialized
+INFO - 2015-12-09 16:29:01 --> Model Class Initialized
+INFO - 2015-12-09 16:29:01 --> Model Class Initialized
+INFO - 2015-12-09 16:29:01 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:29:01 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:29:01 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:29:01 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:29:01 --> Final output sent to browser
+DEBUG - 2015-12-09 16:29:01 --> Total execution time: 1.0717
+INFO - 2015-12-09 16:29:05 --> Config Class Initialized
+INFO - 2015-12-09 16:29:05 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:29:05 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:29:05 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:29:05 --> URI Class Initialized
+INFO - 2015-12-09 16:29:05 --> Router Class Initialized
+INFO - 2015-12-09 16:29:05 --> Output Class Initialized
+INFO - 2015-12-09 16:29:05 --> Security Class Initialized
+DEBUG - 2015-12-09 16:29:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:29:05 --> Input Class Initialized
+INFO - 2015-12-09 16:29:05 --> Language Class Initialized
+INFO - 2015-12-09 16:29:05 --> Loader Class Initialized
+INFO - 2015-12-09 16:29:05 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:29:05 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:29:06 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:29:06 --> Controller Class Initialized
+INFO - 2015-12-09 16:29:06 --> Model Class Initialized
+INFO - 2015-12-09 16:29:06 --> Model Class Initialized
+INFO - 2015-12-09 16:29:06 --> Final output sent to browser
+DEBUG - 2015-12-09 16:29:06 --> Total execution time: 1.0577
+INFO - 2015-12-09 16:29:09 --> Config Class Initialized
+INFO - 2015-12-09 16:29:09 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:29:09 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:29:09 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:29:09 --> URI Class Initialized
+INFO - 2015-12-09 16:29:09 --> Router Class Initialized
+INFO - 2015-12-09 16:29:09 --> Output Class Initialized
+INFO - 2015-12-09 16:29:09 --> Security Class Initialized
+DEBUG - 2015-12-09 16:29:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:29:09 --> Input Class Initialized
+INFO - 2015-12-09 16:29:09 --> Language Class Initialized
+INFO - 2015-12-09 16:29:09 --> Loader Class Initialized
+INFO - 2015-12-09 16:29:09 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:29:09 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:29:10 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:29:10 --> Controller Class Initialized
+INFO - 2015-12-09 16:29:10 --> Model Class Initialized
+INFO - 2015-12-09 16:29:11 --> Model Class Initialized
+INFO - 2015-12-09 16:29:11 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:29:11 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:29:11 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:29:11 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:29:11 --> Final output sent to browser
+DEBUG - 2015-12-09 16:29:11 --> Total execution time: 1.0454
+INFO - 2015-12-09 16:29:20 --> Config Class Initialized
+INFO - 2015-12-09 16:29:20 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:29:20 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:29:20 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:29:20 --> URI Class Initialized
+DEBUG - 2015-12-09 16:29:21 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:29:21 --> Router Class Initialized
+INFO - 2015-12-09 16:29:21 --> Output Class Initialized
+INFO - 2015-12-09 16:29:21 --> Security Class Initialized
+DEBUG - 2015-12-09 16:29:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:29:21 --> Input Class Initialized
+INFO - 2015-12-09 16:29:21 --> Language Class Initialized
+INFO - 2015-12-09 16:29:21 --> Loader Class Initialized
+INFO - 2015-12-09 16:29:21 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:29:21 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:29:22 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:29:22 --> Controller Class Initialized
+INFO - 2015-12-09 16:29:22 --> Model Class Initialized
+INFO - 2015-12-09 16:29:22 --> Model Class Initialized
+INFO - 2015-12-09 16:29:22 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:29:22 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:29:22 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:29:22 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:29:22 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:29:22 --> Final output sent to browser
+DEBUG - 2015-12-09 16:29:22 --> Total execution time: 1.0784
+INFO - 2015-12-09 16:32:35 --> Config Class Initialized
+INFO - 2015-12-09 16:32:35 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:32:35 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:32:35 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:32:35 --> URI Class Initialized
+DEBUG - 2015-12-09 16:32:35 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:32:35 --> Router Class Initialized
+INFO - 2015-12-09 16:32:35 --> Output Class Initialized
+INFO - 2015-12-09 16:32:35 --> Security Class Initialized
+DEBUG - 2015-12-09 16:32:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:32:35 --> Input Class Initialized
+INFO - 2015-12-09 16:32:35 --> Language Class Initialized
+INFO - 2015-12-09 16:32:35 --> Loader Class Initialized
+INFO - 2015-12-09 16:32:35 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:32:35 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:32:36 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:32:36 --> Controller Class Initialized
+INFO - 2015-12-09 16:32:36 --> Model Class Initialized
+INFO - 2015-12-09 16:32:36 --> Model Class Initialized
+INFO - 2015-12-09 16:32:36 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:32:36 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:32:36 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:32:36 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:32:36 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:32:36 --> Final output sent to browser
+DEBUG - 2015-12-09 16:32:36 --> Total execution time: 1.0913
+INFO - 2015-12-09 16:32:50 --> Config Class Initialized
+INFO - 2015-12-09 16:32:50 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:32:50 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:32:50 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:32:50 --> URI Class Initialized
+DEBUG - 2015-12-09 16:32:50 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:32:50 --> Router Class Initialized
+INFO - 2015-12-09 16:32:50 --> Output Class Initialized
+INFO - 2015-12-09 16:32:50 --> Security Class Initialized
+DEBUG - 2015-12-09 16:32:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:32:50 --> Input Class Initialized
+INFO - 2015-12-09 16:32:50 --> Language Class Initialized
+INFO - 2015-12-09 16:32:50 --> Loader Class Initialized
+INFO - 2015-12-09 16:32:50 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:32:50 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:32:51 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:32:51 --> Controller Class Initialized
+INFO - 2015-12-09 16:32:51 --> Model Class Initialized
+INFO - 2015-12-09 16:32:51 --> Model Class Initialized
+INFO - 2015-12-09 16:32:51 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:32:51 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:32:51 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:32:51 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:32:51 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:32:51 --> Final output sent to browser
+DEBUG - 2015-12-09 16:32:51 --> Total execution time: 1.0860
+INFO - 2015-12-09 16:33:52 --> Config Class Initialized
+INFO - 2015-12-09 16:33:52 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:33:52 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:33:52 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:33:52 --> URI Class Initialized
+DEBUG - 2015-12-09 16:33:52 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:33:52 --> Router Class Initialized
+INFO - 2015-12-09 16:33:52 --> Output Class Initialized
+INFO - 2015-12-09 16:33:52 --> Security Class Initialized
+DEBUG - 2015-12-09 16:33:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:33:52 --> Input Class Initialized
+INFO - 2015-12-09 16:33:52 --> Language Class Initialized
+INFO - 2015-12-09 16:33:52 --> Loader Class Initialized
+INFO - 2015-12-09 16:33:52 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:33:52 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:33:53 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:33:53 --> Controller Class Initialized
+INFO - 2015-12-09 16:33:53 --> Model Class Initialized
+INFO - 2015-12-09 16:33:53 --> Model Class Initialized
+INFO - 2015-12-09 16:33:53 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:33:53 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:33:53 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:33:53 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:33:53 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:33:53 --> Final output sent to browser
+DEBUG - 2015-12-09 16:33:53 --> Total execution time: 1.0559
+INFO - 2015-12-09 16:33:54 --> Config Class Initialized
+INFO - 2015-12-09 16:33:54 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:33:54 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:33:54 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:33:54 --> URI Class Initialized
+INFO - 2015-12-09 16:33:54 --> Router Class Initialized
+INFO - 2015-12-09 16:33:54 --> Output Class Initialized
+INFO - 2015-12-09 16:33:54 --> Security Class Initialized
+DEBUG - 2015-12-09 16:33:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:33:54 --> Input Class Initialized
+INFO - 2015-12-09 16:33:54 --> Language Class Initialized
+INFO - 2015-12-09 16:33:54 --> Loader Class Initialized
+INFO - 2015-12-09 16:33:54 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:33:54 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:33:55 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:33:55 --> Controller Class Initialized
+INFO - 2015-12-09 16:33:55 --> Model Class Initialized
+INFO - 2015-12-09 16:33:55 --> Model Class Initialized
+INFO - 2015-12-09 16:33:55 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:33:55 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:33:55 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:33:55 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:33:55 --> Final output sent to browser
+DEBUG - 2015-12-09 16:33:55 --> Total execution time: 1.0603
+INFO - 2015-12-09 16:33:56 --> Config Class Initialized
+INFO - 2015-12-09 16:33:56 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:33:56 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:33:56 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:33:56 --> URI Class Initialized
+DEBUG - 2015-12-09 16:33:56 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:33:56 --> Router Class Initialized
+INFO - 2015-12-09 16:33:57 --> Output Class Initialized
+INFO - 2015-12-09 16:33:57 --> Security Class Initialized
+DEBUG - 2015-12-09 16:33:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:33:57 --> Input Class Initialized
+INFO - 2015-12-09 16:33:57 --> Language Class Initialized
+INFO - 2015-12-09 16:33:57 --> Loader Class Initialized
+INFO - 2015-12-09 16:33:57 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:33:57 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:33:58 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:33:58 --> Controller Class Initialized
+INFO - 2015-12-09 16:33:58 --> Model Class Initialized
+INFO - 2015-12-09 16:33:58 --> Model Class Initialized
+INFO - 2015-12-09 16:33:58 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:33:58 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:33:58 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:33:58 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:33:58 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:33:58 --> Final output sent to browser
+DEBUG - 2015-12-09 16:33:58 --> Total execution time: 1.0781
+INFO - 2015-12-09 16:34:03 --> Config Class Initialized
+INFO - 2015-12-09 16:34:03 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:34:03 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:34:03 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:34:03 --> URI Class Initialized
+INFO - 2015-12-09 16:34:03 --> Router Class Initialized
+INFO - 2015-12-09 16:34:03 --> Output Class Initialized
+INFO - 2015-12-09 16:34:03 --> Security Class Initialized
+DEBUG - 2015-12-09 16:34:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:34:03 --> Input Class Initialized
+INFO - 2015-12-09 16:34:03 --> Language Class Initialized
+INFO - 2015-12-09 16:34:03 --> Loader Class Initialized
+INFO - 2015-12-09 16:34:03 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:34:03 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:34:04 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:34:04 --> Controller Class Initialized
+INFO - 2015-12-09 16:34:04 --> Model Class Initialized
+INFO - 2015-12-09 16:34:04 --> Model Class Initialized
+INFO - 2015-12-09 16:34:04 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:34:04 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:34:04 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:34:04 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:34:04 --> Final output sent to browser
+DEBUG - 2015-12-09 16:34:04 --> Total execution time: 1.0627
+INFO - 2015-12-09 16:34:11 --> Config Class Initialized
+INFO - 2015-12-09 16:34:11 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:34:11 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:34:11 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:34:11 --> URI Class Initialized
+INFO - 2015-12-09 16:34:11 --> Router Class Initialized
+INFO - 2015-12-09 16:34:11 --> Output Class Initialized
+INFO - 2015-12-09 16:34:11 --> Security Class Initialized
+DEBUG - 2015-12-09 16:34:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:34:11 --> Input Class Initialized
+INFO - 2015-12-09 16:34:11 --> Language Class Initialized
+INFO - 2015-12-09 16:34:11 --> Loader Class Initialized
+INFO - 2015-12-09 16:34:11 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:34:11 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:34:12 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:34:12 --> Controller Class Initialized
+INFO - 2015-12-09 16:34:12 --> Model Class Initialized
+INFO - 2015-12-09 16:34:12 --> Model Class Initialized
+INFO - 2015-12-09 16:34:12 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:34:12 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:34:12 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:34:12 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:34:12 --> Final output sent to browser
+DEBUG - 2015-12-09 16:34:12 --> Total execution time: 1.0660
+INFO - 2015-12-09 16:34:18 --> Config Class Initialized
+INFO - 2015-12-09 16:34:18 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:34:18 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:34:18 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:34:18 --> URI Class Initialized
+INFO - 2015-12-09 16:34:18 --> Router Class Initialized
+INFO - 2015-12-09 16:34:18 --> Output Class Initialized
+INFO - 2015-12-09 16:34:18 --> Security Class Initialized
+DEBUG - 2015-12-09 16:34:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:34:18 --> Input Class Initialized
+INFO - 2015-12-09 16:34:18 --> Language Class Initialized
+INFO - 2015-12-09 16:34:18 --> Loader Class Initialized
+INFO - 2015-12-09 16:34:18 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:34:18 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:34:19 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:34:19 --> Controller Class Initialized
+INFO - 2015-12-09 16:34:19 --> Model Class Initialized
+INFO - 2015-12-09 16:34:19 --> Model Class Initialized
+INFO - 2015-12-09 16:34:19 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:34:19 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:34:19 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:34:19 --> File loaded: E:\www\class2nd\app\views\course/info.php
+INFO - 2015-12-09 16:34:19 --> Final output sent to browser
+DEBUG - 2015-12-09 16:34:19 --> Total execution time: 1.0476
+INFO - 2015-12-09 16:34:22 --> Config Class Initialized
+INFO - 2015-12-09 16:34:22 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:34:22 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:34:22 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:34:22 --> URI Class Initialized
+DEBUG - 2015-12-09 16:34:22 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:34:22 --> Router Class Initialized
+INFO - 2015-12-09 16:34:22 --> Output Class Initialized
+INFO - 2015-12-09 16:34:22 --> Security Class Initialized
+DEBUG - 2015-12-09 16:34:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:34:22 --> Input Class Initialized
+INFO - 2015-12-09 16:34:22 --> Language Class Initialized
+INFO - 2015-12-09 16:34:22 --> Loader Class Initialized
+INFO - 2015-12-09 16:34:22 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:34:22 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:34:23 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:34:23 --> Controller Class Initialized
+INFO - 2015-12-09 16:34:23 --> Model Class Initialized
+INFO - 2015-12-09 16:34:23 --> Model Class Initialized
+INFO - 2015-12-09 16:34:23 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:34:23 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:34:23 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:34:23 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:34:23 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:34:23 --> Final output sent to browser
+DEBUG - 2015-12-09 16:34:23 --> Total execution time: 1.0547
+INFO - 2015-12-09 16:45:59 --> Config Class Initialized
+INFO - 2015-12-09 16:45:59 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:45:59 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:45:59 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:45:59 --> URI Class Initialized
+INFO - 2015-12-09 16:45:59 --> Router Class Initialized
+INFO - 2015-12-09 16:45:59 --> Output Class Initialized
+INFO - 2015-12-09 16:45:59 --> Security Class Initialized
+DEBUG - 2015-12-09 16:45:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:45:59 --> Input Class Initialized
+INFO - 2015-12-09 16:45:59 --> Language Class Initialized
+INFO - 2015-12-09 16:45:59 --> Loader Class Initialized
+INFO - 2015-12-09 16:45:59 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:45:59 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:46:00 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:46:00 --> Controller Class Initialized
+INFO - 2015-12-09 16:46:00 --> Model Class Initialized
+INFO - 2015-12-09 16:46:00 --> Model Class Initialized
+INFO - 2015-12-09 16:46:00 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:46:00 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:46:00 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:46:00 --> File loaded: E:\www\class2nd\app\views\course/index.php
+INFO - 2015-12-09 16:46:00 --> Final output sent to browser
+DEBUG - 2015-12-09 16:46:00 --> Total execution time: 1.0709
+INFO - 2015-12-09 16:47:36 --> Config Class Initialized
+INFO - 2015-12-09 16:47:36 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:47:36 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:47:36 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:47:36 --> URI Class Initialized
+DEBUG - 2015-12-09 16:47:36 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:47:36 --> Router Class Initialized
+INFO - 2015-12-09 16:47:36 --> Output Class Initialized
+INFO - 2015-12-09 16:47:36 --> Security Class Initialized
+DEBUG - 2015-12-09 16:47:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:47:36 --> Input Class Initialized
+INFO - 2015-12-09 16:47:36 --> Language Class Initialized
+INFO - 2015-12-09 16:47:36 --> Loader Class Initialized
+INFO - 2015-12-09 16:47:36 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:47:36 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:47:37 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:47:37 --> Controller Class Initialized
+INFO - 2015-12-09 16:47:37 --> Model Class Initialized
+INFO - 2015-12-09 16:47:37 --> Model Class Initialized
+INFO - 2015-12-09 16:47:37 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:47:37 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:47:37 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:47:37 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:47:37 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:47:37 --> Final output sent to browser
+DEBUG - 2015-12-09 16:47:37 --> Total execution time: 1.0748
+INFO - 2015-12-09 16:48:22 --> Config Class Initialized
+INFO - 2015-12-09 16:48:22 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:48:22 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:48:22 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:48:22 --> URI Class Initialized
+DEBUG - 2015-12-09 16:48:22 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:48:22 --> Router Class Initialized
+INFO - 2015-12-09 16:48:22 --> Output Class Initialized
+INFO - 2015-12-09 16:48:22 --> Security Class Initialized
+DEBUG - 2015-12-09 16:48:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:48:22 --> Input Class Initialized
+INFO - 2015-12-09 16:48:22 --> Language Class Initialized
+INFO - 2015-12-09 16:48:22 --> Loader Class Initialized
+INFO - 2015-12-09 16:48:22 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:48:22 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:48:22 --> Config Class Initialized
+INFO - 2015-12-09 16:48:22 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:48:22 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:48:22 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:48:22 --> URI Class Initialized
+INFO - 2015-12-09 16:48:22 --> Router Class Initialized
+INFO - 2015-12-09 16:48:22 --> Output Class Initialized
+INFO - 2015-12-09 16:48:22 --> Security Class Initialized
+DEBUG - 2015-12-09 16:48:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:48:22 --> Input Class Initialized
+INFO - 2015-12-09 16:48:22 --> Language Class Initialized
+INFO - 2015-12-09 16:48:22 --> Loader Class Initialized
+INFO - 2015-12-09 16:48:22 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:48:22 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:48:23 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:48:23 --> Controller Class Initialized
+INFO - 2015-12-09 16:48:23 --> Model Class Initialized
+INFO - 2015-12-09 16:48:23 --> Model Class Initialized
+INFO - 2015-12-09 16:48:23 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:48:23 --> Final output sent to browser
+DEBUG - 2015-12-09 16:48:23 --> Total execution time: 1.0704
+INFO - 2015-12-09 16:48:23 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:48:23 --> Controller Class Initialized
+INFO - 2015-12-09 16:48:23 --> Model Class Initialized
+INFO - 2015-12-09 16:48:23 --> Model Class Initialized
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:48:23 --> File loaded: E:\www\class2nd\app\views\course/index.php
+INFO - 2015-12-09 16:48:23 --> Final output sent to browser
+DEBUG - 2015-12-09 16:48:23 --> Total execution time: 1.0595
+INFO - 2015-12-09 16:48:36 --> Config Class Initialized
+INFO - 2015-12-09 16:48:36 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:48:36 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:48:36 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:48:36 --> URI Class Initialized
+DEBUG - 2015-12-09 16:48:36 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:48:36 --> Router Class Initialized
+INFO - 2015-12-09 16:48:36 --> Output Class Initialized
+INFO - 2015-12-09 16:48:36 --> Security Class Initialized
+DEBUG - 2015-12-09 16:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:48:36 --> Input Class Initialized
+INFO - 2015-12-09 16:48:36 --> Language Class Initialized
+INFO - 2015-12-09 16:48:36 --> Loader Class Initialized
+INFO - 2015-12-09 16:48:36 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:48:36 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:48:37 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:48:37 --> Controller Class Initialized
+INFO - 2015-12-09 16:48:37 --> Model Class Initialized
+INFO - 2015-12-09 16:48:37 --> Model Class Initialized
+INFO - 2015-12-09 16:48:37 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:48:37 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:48:37 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:48:37 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:48:37 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:48:37 --> Final output sent to browser
+DEBUG - 2015-12-09 16:48:37 --> Total execution time: 1.0676
+INFO - 2015-12-09 16:48:52 --> Config Class Initialized
+INFO - 2015-12-09 16:48:52 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:48:52 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:48:52 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:48:52 --> URI Class Initialized
+INFO - 2015-12-09 16:48:52 --> Router Class Initialized
+INFO - 2015-12-09 16:48:52 --> Output Class Initialized
+INFO - 2015-12-09 16:48:52 --> Security Class Initialized
+DEBUG - 2015-12-09 16:48:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:48:52 --> Input Class Initialized
+INFO - 2015-12-09 16:48:52 --> Language Class Initialized
+INFO - 2015-12-09 16:48:52 --> Loader Class Initialized
+INFO - 2015-12-09 16:48:52 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:48:52 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:48:53 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:48:53 --> Controller Class Initialized
+INFO - 2015-12-09 16:48:53 --> Model Class Initialized
+INFO - 2015-12-09 16:48:53 --> Model Class Initialized
+INFO - 2015-12-09 16:48:53 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:48:53 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:48:53 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:48:53 --> File loaded: E:\www\class2nd\app\views\course/index.php
+INFO - 2015-12-09 16:48:53 --> Final output sent to browser
+DEBUG - 2015-12-09 16:48:53 --> Total execution time: 1.0701
+INFO - 2015-12-09 16:48:57 --> Config Class Initialized
+INFO - 2015-12-09 16:48:57 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:48:57 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:48:57 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:48:57 --> URI Class Initialized
+INFO - 2015-12-09 16:48:57 --> Router Class Initialized
+INFO - 2015-12-09 16:48:57 --> Output Class Initialized
+INFO - 2015-12-09 16:48:57 --> Security Class Initialized
+DEBUG - 2015-12-09 16:48:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:48:57 --> Input Class Initialized
+INFO - 2015-12-09 16:48:57 --> Language Class Initialized
+INFO - 2015-12-09 16:48:57 --> Loader Class Initialized
+INFO - 2015-12-09 16:48:57 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:48:57 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:48:58 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:48:58 --> Controller Class Initialized
+INFO - 2015-12-09 16:48:58 --> Model Class Initialized
+INFO - 2015-12-09 16:48:58 --> Model Class Initialized
+INFO - 2015-12-09 16:48:58 --> Final output sent to browser
+DEBUG - 2015-12-09 16:48:58 --> Total execution time: 1.0514
+INFO - 2015-12-09 16:49:00 --> Config Class Initialized
+INFO - 2015-12-09 16:49:00 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:49:00 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:49:00 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:49:00 --> URI Class Initialized
+INFO - 2015-12-09 16:49:00 --> Router Class Initialized
+INFO - 2015-12-09 16:49:00 --> Output Class Initialized
+INFO - 2015-12-09 16:49:00 --> Security Class Initialized
+DEBUG - 2015-12-09 16:49:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:49:00 --> Input Class Initialized
+INFO - 2015-12-09 16:49:00 --> Language Class Initialized
+INFO - 2015-12-09 16:49:00 --> Loader Class Initialized
+INFO - 2015-12-09 16:49:00 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:49:00 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:49:01 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:49:01 --> Controller Class Initialized
+INFO - 2015-12-09 16:49:01 --> Model Class Initialized
+INFO - 2015-12-09 16:49:01 --> Model Class Initialized
+INFO - 2015-12-09 16:49:01 --> Final output sent to browser
+DEBUG - 2015-12-09 16:49:01 --> Total execution time: 1.0799
+INFO - 2015-12-09 16:49:04 --> Config Class Initialized
+INFO - 2015-12-09 16:49:04 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:49:04 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:49:04 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:49:04 --> URI Class Initialized
+DEBUG - 2015-12-09 16:49:04 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:49:04 --> Router Class Initialized
+INFO - 2015-12-09 16:49:04 --> Output Class Initialized
+INFO - 2015-12-09 16:49:04 --> Security Class Initialized
+DEBUG - 2015-12-09 16:49:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:49:04 --> Input Class Initialized
+INFO - 2015-12-09 16:49:04 --> Language Class Initialized
+INFO - 2015-12-09 16:49:04 --> Loader Class Initialized
+INFO - 2015-12-09 16:49:04 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:49:04 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:49:05 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:49:05 --> Controller Class Initialized
+INFO - 2015-12-09 16:49:05 --> Model Class Initialized
+INFO - 2015-12-09 16:49:05 --> Model Class Initialized
+INFO - 2015-12-09 16:49:05 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:49:05 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:49:05 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:49:05 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:49:05 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:49:05 --> Final output sent to browser
+DEBUG - 2015-12-09 16:49:05 --> Total execution time: 1.0581
+INFO - 2015-12-09 16:49:10 --> Config Class Initialized
+INFO - 2015-12-09 16:49:10 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:49:10 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:49:10 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:49:10 --> URI Class Initialized
+INFO - 2015-12-09 16:49:10 --> Router Class Initialized
+INFO - 2015-12-09 16:49:10 --> Output Class Initialized
+INFO - 2015-12-09 16:49:10 --> Security Class Initialized
+DEBUG - 2015-12-09 16:49:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:49:10 --> Input Class Initialized
+INFO - 2015-12-09 16:49:10 --> Language Class Initialized
+INFO - 2015-12-09 16:49:10 --> Loader Class Initialized
+INFO - 2015-12-09 16:49:10 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:49:10 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:49:11 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:49:11 --> Controller Class Initialized
+INFO - 2015-12-09 16:49:11 --> Model Class Initialized
+INFO - 2015-12-09 16:49:11 --> Model Class Initialized
+INFO - 2015-12-09 16:49:11 --> Model Class Initialized
+INFO - 2015-12-09 16:49:11 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:49:11 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:49:11 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:49:11 --> File loaded: E:\www\class2nd\app\views\member/index.php
+INFO - 2015-12-09 16:49:11 --> Final output sent to browser
+DEBUG - 2015-12-09 16:49:11 --> Total execution time: 1.0526
+INFO - 2015-12-09 16:49:14 --> Config Class Initialized
+INFO - 2015-12-09 16:49:14 --> Hooks Class Initialized
+DEBUG - 2015-12-09 16:49:14 --> UTF-8 Support Enabled
+INFO - 2015-12-09 16:49:14 --> Utf8 Class Initialized
+INFO - 2015-12-09 16:49:14 --> URI Class Initialized
+DEBUG - 2015-12-09 16:49:14 --> No URI present. Default controller set.
+INFO - 2015-12-09 16:49:14 --> Router Class Initialized
+INFO - 2015-12-09 16:49:14 --> Output Class Initialized
+INFO - 2015-12-09 16:49:14 --> Security Class Initialized
+DEBUG - 2015-12-09 16:49:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2015-12-09 16:49:14 --> Input Class Initialized
+INFO - 2015-12-09 16:49:14 --> Language Class Initialized
+INFO - 2015-12-09 16:49:14 --> Loader Class Initialized
+INFO - 2015-12-09 16:49:14 --> Helper loaded: url_helper
+INFO - 2015-12-09 16:49:14 --> Database Driver Class Initialized
+INFO - 2015-12-09 16:49:15 --> Session: Class initialized using 'files' driver.
+INFO - 2015-12-09 16:49:15 --> Controller Class Initialized
+INFO - 2015-12-09 16:49:15 --> Model Class Initialized
+INFO - 2015-12-09 16:49:15 --> Model Class Initialized
+INFO - 2015-12-09 16:49:15 --> Helper loaded: my_array_helper
+INFO - 2015-12-09 16:49:15 --> File loaded: E:\www\class2nd\app\views\common/header_up.php
+INFO - 2015-12-09 16:49:15 --> File loaded: E:\www\class2nd\app\views\common/header_down.php
+INFO - 2015-12-09 16:49:15 --> File loaded: E:\www\class2nd\app\views\common/footer.php
+INFO - 2015-12-09 16:49:15 --> File loaded: E:\www\class2nd\app\views\home/index.php
+INFO - 2015-12-09 16:49:15 --> Final output sent to browser
+DEBUG - 2015-12-09 16:49:15 --> Total execution time: 1.0748
