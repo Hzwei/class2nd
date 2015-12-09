@@ -120,7 +120,13 @@ $cid = $this->uri->segment(3);
 <!-- 第二块评分和参与情况 -->
 <div class="more-info">
 	<p class="course-info">
-		<span class="score">评分：<?php echo sprintf("%.2f",$courseInfo['score']/$courseInfo['score_num']);?></span>
+		<span class="score">评分：
+			<?php if ($courseInfo['score_num']): ?>
+				<?php echo sprintf("%.2f",$courseInfo['score']/$courseInfo['score_num']);?>
+			<?php else:?>
+				无
+			<?php endif ?>
+		</span>
 		<span class="number"><?=$courseInfo['join_num']?>人参加</span>
 		<span class="time">入库日期：
 			<?php 
@@ -233,8 +239,14 @@ $cid = $this->uri->segment(3);
 				<a href="<?php echo base_url().$control.'/info/'.$val['id']?>"><span><?=$val['title']?></span></a>
 				<p class="course-info">
 					<span class="score">评分:
-						<?php echo sprintf("%.2f",$val['score']/$val['score_num']);?>
+						<?php if ($val['score_num']): ?>
+							<?php echo sprintf("%.2f",$val['score']/$val['score_num']);?>
+						<?php else:?>
+							无
+						<?php endif ?>
+			
 					</span>
+
 					<span class="number"><?=$val['join_num']?>人参加</span>
 				</p>
 			</li>

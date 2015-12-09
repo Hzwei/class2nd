@@ -61,7 +61,7 @@
 				</a>
 			</div>
 			<div class="search">
-				<form action='<? echo base_url(); ?>search' method="GET" role="search">
+				<form action='<? echo base_url('home/search'); ?>' method="GET" role="search">
 					<div class="form-group">
 						<input class="form-control" type="text" maxlength="30" placeholder="搜你所想，30字之内 :)" name="word">
 	                </div>
@@ -91,9 +91,7 @@
 	<div class="nav">
 		<ul>
 			<li><a href="<? echo base_url(); ?>">首页</a></li>
-			<li><a href="<? echo base_url(); ?>course">课程</a></li>
-			<li><a href="<? echo base_url(); ?>exam">测验</a></li>
-			<li><a href="<? echo base_url(); ?>community">社区</a></li>
+			<li><a href="<? echo base_url(); ?>course">课程库</a></li>
 		</ul>
 	</div>
 	<!-- end -->

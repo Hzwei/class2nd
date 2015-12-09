@@ -195,6 +195,17 @@ class Course_model extends CI_Model{
 		return $this->db->query($sql,array($cid,$uid,$uanme,$comment,time()));
 	}
 
+	// 搜索课程
+	public function searchCourse($word,$num){
+		$sql = "select * from swap_course where title like '%$word%' or `desc` like '%$word%' order by join_num desc limit ?";
+		return $this->db->query($sql,array($num))->result_array();
+	}
+
+	// 搜索视频
+	public function searchVideo($word,$num){
+		$sql = "select id,title,sort,link,time from swap_video where title like '%$word%' order by time desc limit ?";
+		return $this->db->query($sql,array($num))->result_array();
+	}
 
 
 }

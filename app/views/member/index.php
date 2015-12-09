@@ -90,6 +90,51 @@
 		});
 
 
+		// 添加课程名
+		$('#add-course').click(function(){
+			$(this).hide();
+			$(this).siblings('input').slideDown('fast');
+		});
+
+		// 失去焦点时自动提交
+		$('#course-name').blur(function(){
+			var title = $(this).val();
+			if (title == ''){
+				alert('标题不能为空');
+				return ;
+			}
+			$.post("<?php echo base_url('member/addCourse')?>", {title: title}, function(data){
+				if (data) {
+					$('#course-name').fadeOut('slow',function(){
+						$('#add-course').fadeIn('slow',function(){
+							// 重载页面
+							location.reload();
+						});
+					});						
+				}
+				else{
+					alert('添加失败');
+				}
+			});
+		})
+
+		//  删除课程
+		$(".delete").click(function(){
+			var cid = $(this).data('id');
+			$.post("<?php echo base_url('member/delCourse')?>", {cid: cid}, function(data){
+				if (data){
+					alert("删除成功");
+					// 重载页面
+					location.reload();
+				}
+				else{
+					alert("删除失败");
+				}
+			});
+
+		});
+
+
 		// 加载更多所属课程
 		$('.load-more-belong').click(function(){
 			
@@ -121,6 +166,8 @@
 				$('.load-more-belong span').text('加载更多');
 			});
 		});
+
+
 
 	});
 
@@ -183,7 +230,8 @@
 <!-- 所属课程列表 -->
 <div class="course-list">
 	<p>贡献课程
-		<a href="<?php echo base_url('member/add');?>"><span style="float: right;color:#1caaea">新增课程</span></a>
+		<a id="add-course" href="javascript:;"><span style="float: right;color:#1caaea">新增课程</span></a>
+		<input type="text" id="course-name" placeholder='请输入课程名' style="float: right;width: 250px;padding: 5px;display: none">
 	</p>
 	<ul class="belong-course">
 		<?php foreach ($belongCourse as $val): ?>
@@ -191,7 +239,8 @@
 				<a href="<?php echo base_url('course/info').'/'.$val['id'];?>" target='_blank'>
 					<?=$val['title']?>
 				</a>
-				<a  class="edit" style="color:#1caaea;" href="<?php echo base_url('member/edit').'/'.$val['id'];?>">编辑</a>
+				<a class="edit" style="color:#1caaea;" href="<?php echo base_url('member/edit').'/'.$val['id'];?>">编辑</a>
+				<a class="delete" data-id="<?=$val['id']?>" href="javascript:;" style="color:#1caaea;margin-left: 15px;">删除</a>
 				<span class="number"><?=$val['join_num']?>人参与</span>
 				<span class="r">
 					上传日期：
@@ -199,7 +248,11 @@
 				</span>
 				<span class="get-score">
 					收获评分：
-					<?php echo sprintf('%.2f',$val['score']/$val['score_num'])?>
+					<?php if ($val['score_num']): ?>
+						<?php echo sprintf('%.2f',$val['score']/$val['score_num'])?>
+					<?php else:?>
+						无
+					<?php endif ?>
 				</span>
 			</li>
 		<?php endforeach ?>

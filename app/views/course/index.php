@@ -104,7 +104,11 @@ $control = $this->uri->segment(1);
 				<a href="<?php echo base_url().$control.'/info/'.$val['id']?>"><span><?=$val['title']?></span></a>
 				<p class="course-info">
 					<span class="score">评分:
-						<?php echo sprintf("%.2f",$val['score']/$val['score_num']);?>
+						<?php if ($val['score_num']): ?>
+							<?php echo sprintf("%.2f",$val['score']/$val['score_num']);?>
+						<?php else:?>
+							无
+						<?php endif ?>
 					</span>
 					<span class="number"><?=$val['join_num']?>人参加</span>
 				</p>

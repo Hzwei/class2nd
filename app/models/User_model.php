@@ -73,6 +73,10 @@ class User_model extends CI_Model{
 		return $this->db->query($sql,array(md5($pwd),$_SESSION['uid']));
 	}
 
-
+	// 获取用户信息
+	public function getrUserInfo($uid){
+		$sql = 'select id,username,email from swap_users where id =? limit 1';
+		return $this->db->query($sql,array($uid));
+	}
 	
 }

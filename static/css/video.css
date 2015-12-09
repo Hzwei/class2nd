@@ -1,7 +1,7 @@
 /*视频页面样式*/
 @charset 'utf-8';
 
-.video-head,.video,.video-nav{
+.forum-list,.forum,.video-head,.video,.video-nav{
 	width: 1020px;	
 	margin: 0 auto;
 	background-color: white;
@@ -40,3 +40,61 @@
 	margin-left: 30px;
 }
 
+.forum textarea{
+	margin: 20px auto;
+	width: 85%;
+	height: 50px;
+	padding: 15px;
+	resize:none;
+}
+.submit{
+	float: right;
+	margin-right: 40px;
+	margin-top: 60px;
+}
+
+.forum-list p.forum-title{
+	width: 1020px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 20px;
+    color: #1caaea;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.forum-list ul{
+	width: 100%;
+}
+
+.forum-list ul li{
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px #ccc dashed;
+    margin-bottom: 10px;
+}
+
+.message{
+	padding-left: 10px;
+	display: inline-block;
+	width:730px;
+	overflow: hidden;
+	line-height: 25px;
+}
+
+.name{
+	float: right;
+	padding-right: 20px;
+	color: #1caaea;
+}
+.for-time{
+	float: right;
+	padding-right: 20px;	
+}
+
+#load-more{
+	color:#666;
+	display: block;
+	width: 100px;
+	margin: 10px auto;
+}

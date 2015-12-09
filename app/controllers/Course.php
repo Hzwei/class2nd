@@ -243,6 +243,9 @@ class Course extends CI_Controller{
 		// 得到上节和下节视频 array(pre,next)  0则无
 		$nearVideo = $this->video_model->getNearVideo($videoInfo['cid'],$videoInfo['sort']);
 
+		// 获取该视频下留言
+		$commentList = $this->video_model->getCommentList($vid,0,5);
+
 		// 获取该课程下视频总数
 		// $videoCount = $this->course_model->getVideoCount($videoInfo['cid']);
 
@@ -256,13 +259,23 @@ class Course extends CI_Controller{
 			'videoInfo' => $videoInfo,
 			'courseInfo'=>$courseInfo,
 			'cateInfo' => $cateInfo,
-			'nearVideo'=>$nearVideo
+			'nearVideo'=>$nearVideo,
+			'commentList'=>$commentList
 		);
 
 		$this->load->view('course/video',$data);
 
 	}
 
+	// 加载更多视频评论
+	public function loadMoreCom(){
+		$vid = $this->input->post('vid');
+		$start = $this->input->post('count');
+
+		$this->load->model('video_model');
+		$res = $this->video_model->getCommentList($vid,$start,5);
+		echo json_encode($res);
+	}
 
 	
 

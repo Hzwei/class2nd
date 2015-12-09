@@ -21,7 +21,30 @@ class Home extends CI_Controller{
 		$this->load->view('home/index',$data);
 	}
 
+	// 搜索功能
+	public function search(){
+		$word = $this->input->get('word');
+
+		$this->load->model('course_model');
+
+		// 搜索课程
+		$courseList = $this->course_model->searchCourse($word,4);
+
+		// 搜索视频
+		$videoList = $this->course_model->searchVideo($word,4);
+
+		$data = array(
+			'word'=>$word,
+			'courseList'=>$courseList,
+			'videoList'=>$videoList
+
+		);
+
+		$this->load->view('home/search',$data);
+
+	}
 
 
 
 }
+

@@ -58,7 +58,7 @@
 	font-family: Arial, 微软雅黑;
 	font-size: 12px;
 }
-.videolist ul li span{
+.videolist ul li span.sort{
 	float: right;
 }
 .comment p.more a:hover,.videolist ul li a:hover{
@@ -71,9 +71,11 @@
 	margin-bottom: 20px;
 }
 .videolist textarea{
-	width: 95%;
-	display: block;
-	margin-bottom: 30px;
+	width: 80%;
+	height: 60px;
+	resize:none;
+	display: inline-block;
+	margin-bottom: 10px;
 }
 .videolist p{
 	color:#1caaea;
@@ -87,3 +89,27 @@
 	margin-bottom: 20px;
 }
 /*end*/
+
+.link-word{
+	position: relative;
+	top:-60px;
+}
+.sort{
+	font-size: 20px;
+	color:#1caaea;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+.add-new{
+	display: block;
+	margin-left: 25px;
+	color:red;
+	font-size: 25px;
+	margin-bottom: 20px;
+}
+
+.change{
+	float: right;
+	margin-right: 10px;
+}
